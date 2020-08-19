@@ -40,6 +40,7 @@ dependencies:
   firebase_storage: ^3.1.6
   random_string: ^2.1.0
   flutter_plugin_pdf_viewer: any
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

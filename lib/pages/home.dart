@@ -45,7 +45,7 @@ class _homepageState extends State<homepage> {
                        },
                              child: Container(
                                    margin: EdgeInsets.all(8),
-                                        height: 150,
+                                        height: 100,
                                      decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(24),
                                       gradient: LinearGradient(
@@ -103,7 +103,7 @@ class _homepageState extends State<homepage> {
               },
               child: Container(
                 margin: EdgeInsets.all(8),
-                height: 150,
+                height: 100,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(24),
                     gradient: LinearGradient(
@@ -158,7 +158,7 @@ class _homepageState extends State<homepage> {
               },
               child: Container(
                 margin: EdgeInsets.all(8),
-                height: 150,
+                height: 100,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(24),
                     gradient: LinearGradient(
@@ -181,11 +181,13 @@ class _homepageState extends State<homepage> {
                        mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
-                        Text("LYCEE SCIENTIFIQUE",
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontFamily: "Nunito",
-                              fontSize: 20
+                        Expanded(
+                          child: Text("LYCEE SCIENTIFIQUE",
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontFamily: "Nunito",
+                                fontSize: 20
+                            ),
                           ),
                         ),
                         SizedBox(height:16),

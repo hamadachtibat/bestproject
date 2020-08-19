@@ -4,7 +4,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_alfadl2/services/database.dart';
 import 'package:flutter_alfadl2/services/ourdata.dart';
-import 'package:provider/provider.dart';
 
 class currentuser extends ChangeNotifier {
   ourusers _currentuser=ourusers();

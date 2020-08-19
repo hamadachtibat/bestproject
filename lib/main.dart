@@ -248,148 +248,150 @@ class _LoginPageState extends State<LoginPage> {
                       topRight: Radius.circular(30),
                     )
                 ),
-                   child: Column(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: <Widget>[
-                       Column(
+                   child: SingleChildScrollView(
+                     child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: <Widget>[
-                        Container(
-                          margin:EdgeInsets.only(bottom: 20) ,
-                          child: Text(
-                              "inscrie pour continue",
-                            style: TextStyle(
-                              fontSize: 25
+                         Column(
+                            children: <Widget>[
+                          Container(
+                            margin:EdgeInsets.only(bottom: 20) ,
+                            child: Text(
+                                "inscrie pour continue",
+                              style: TextStyle(
+                                fontSize: 25
+                              ),
                             ),
                           ),
-                        ),
-                           SizedBox(height: 30,),
+                             SizedBox(height: 30,),
              Container(
-                     decoration: BoxDecoration(
-                     border: Border.all(
-                        color: Colors.purple,
-                           width: 2
-                         ),
-                         borderRadius: BorderRadius.circular(50)
+                       decoration: BoxDecoration(
+                       border: Border.all(
+                          color: Colors.purple,
+                             width: 2
                            ),
-                               child: Row(
-                                 children: <Widget>[
-                                      Container(
-                                       width: 60,
-                                     child:Icon(
-                                       Icons.email,
-                                      size: 20,
-                                   color: Colors.grey,
-                                      ),
-                                      ),
-                                        Expanded(
-                                         child: TextFormField(
-                                           controller: _email1controller,
-                                 decoration: InputDecoration(
-                               contentPadding: EdgeInsets.symmetric(vertical: 20),
-                                  border: InputBorder.none,
-                                       hintText: 'Entrez Votre Email',
+                           borderRadius: BorderRadius.circular(50)
+                             ),
+                                 child: Row(
+                                   children: <Widget>[
+                                        Container(
+                                         width: 60,
+                                       child:Icon(
+                                         Icons.email,
+                                        size: 20,
+                                     color: Colors.grey,
+                                        ),
+                                        ),
+                                          Expanded(
+                                           child: TextFormField(
+                                             controller: _email1controller,
+                                   decoration: InputDecoration(
+                                 contentPadding: EdgeInsets.symmetric(vertical: 20),
+                                    border: InputBorder.none,
+                                         hintText: 'Entrez Votre Email',
         ),
         ),
         )
         ],
         ),
         ),
-                              SizedBox(height: 20,),
-                            Container(
-                              decoration: BoxDecoration(
-                                  border: Border.all(
-                                      color: Colors.purple,
-                                      width: 2
-                                  ),
-                                  borderRadius: BorderRadius.circular(50)
-                              ),
-                              child: Row(
-                                children: <Widget>[
-                                  Container(
-                                    width: 60,
-                                    child:Icon(
-                                      Icons.vpn_key,
-                                      size: 20,
-                                      color: Colors.grey,
+                                SizedBox(height: 20,),
+                              Container(
+                                decoration: BoxDecoration(
+                                    border: Border.all(
+                                        color: Colors.purple,
+                                        width: 2
                                     ),
-                                  ),
-                                  Expanded(
-                                    child: TextFormField(
-                                      controller: _password1controller,
-                                      obscureText: true,
-                                      decoration: InputDecoration(
-                                        contentPadding: EdgeInsets.symmetric(vertical: 20),
-                                        border: InputBorder.none,
-                                        hintText: 'Entrez votre mot de passe',
+                                    borderRadius: BorderRadius.circular(50)
+                                ),
+                                child: Row(
+                                  children: <Widget>[
+                                    Container(
+                                      width: 60,
+                                      child:Icon(
+                                        Icons.vpn_key,
+                                        size: 20,
+                                        color: Colors.grey,
                                       ),
                                     ),
-                                  )
-                                ],
-                              ),
-                            ),
-                      ],
-                    ),
-                    Column(
-                      children: <Widget>[
-                        GestureDetector(
-                          onTap: (){
-                            _loginin(_email1controller.text,_password1controller.text,context);
-                          },
-                          child: Container(
-                            decoration: BoxDecoration(
-                                color: Colors.purple,
-                                borderRadius: BorderRadius.circular(50)
-                            ),
-                            padding: EdgeInsets.all(20),
-                            child: Center(
-                              child: Text(
-                                "login",
-                                style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 18
-
+                                    Expanded(
+                                      child: TextFormField(
+                                        controller: _password1controller,
+                                        obscureText: true,
+                                        decoration: InputDecoration(
+                                          contentPadding: EdgeInsets.symmetric(vertical: 20),
+                                          border: InputBorder.none,
+                                          hintText: 'Entrez votre mot de passe',
+                                        ),
+                                      ),
+                                    )
+                                  ],
                                 ),
                               ),
-                            ),
-                          ),
-                        ),
-
-
-                        SizedBox(
-                          height: 20,
-                        ),
+                        ],
+                      ),
+                      Column(
+                        children: <Widget>[
                           GestureDetector(
-                            onTap:(){
-                              setState(() {
-                                _pagestate= 2;
-                              });
+                            onTap: (){
+                              _loginin(_email1controller.text,_password1controller.text,context);
                             },
                             child: Container(
                               decoration: BoxDecoration(
-                                  border: Border.all(
-                                      color: Colors.purple,
-                                      width: 2
-                                  ),
+                                  color: Colors.purple,
                                   borderRadius: BorderRadius.circular(50)
                               ),
                               padding: EdgeInsets.all(20),
                               child: Center(
                                 child: Text(
-                                  "créere un compte",
+                                  "login",
                                   style: TextStyle(
-                                      color: Colors.purple,
+                                      color: Colors.white,
                                       fontSize: 18
 
                                   ),
                                 ),
                               ),
-
                             ),
                           ),
-                      ],
-                    ),
+
+
+                          SizedBox(
+                            height: 20,
+                          ),
+                            GestureDetector(
+                              onTap:(){
+                                setState(() {
+                                  _pagestate= 2;
+                                });
+                              },
+                              child: Container(
+                                decoration: BoxDecoration(
+                                    border: Border.all(
+                                        color: Colors.purple,
+                                        width: 2
+                                    ),
+                                    borderRadius: BorderRadius.circular(50)
+                                ),
+                                padding: EdgeInsets.all(20),
+                                child: Center(
+                                  child: Text(
+                                    "créere un compte",
+                                    style: TextStyle(
+                                        color: Colors.purple,
+                                        fontSize: 18
+
+                                    ),
+                                  ),
+                                ),
+
+                              ),
+                            ),
+                        ],
+                      ),
                   ],
                 ),
+                   ),
               ),
 
             AnimatedContainer(
@@ -407,156 +409,24 @@ class _LoginPageState extends State<LoginPage> {
                       topRight: Radius.circular(30),
                     )
                 ),
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: <Widget>[
-                    Column(
-                      children: <Widget>[
-                        Container(
-                          margin: EdgeInsets.only(bottom: 20),
-                          child: Text(
-                              "créer un nouveau compte ",
-                            style: TextStyle(
-                              fontSize: 20
-                            ),
-                          ),
-                        ),
-
-                        Container(
-                          decoration: BoxDecoration(
-                              border: Border.all(
-                                  color: Colors.purple,
-                                  width: 2
-                              ),
-                              borderRadius: BorderRadius.circular(50)
-                          ),
-                          child: Row(
-                            children: <Widget>[
-                              Container(
-                                width: 60,
-                                child:Icon(
-                                  Icons.person,
-                                  size: 20,
-                                  color: Colors.grey,
-                                ),
-                              ),
-                              Expanded(
-                                child: TextFormField(
-                                  controller: _fullnamecontroller,
-                                  decoration: InputDecoration(
-                                    contentPadding: EdgeInsets.symmetric(vertical: 20),
-                                    border: InputBorder.none,
-                                    hintText: 'Entrez Votre nom et prénom',
-                                  ),
-                                ),
-                              )
-                            ],
-                          ),
-                        ),
-                        SizedBox(height: 10,),
-                        Container(
-                          decoration: BoxDecoration(
-                              border: Border.all(
-                                  color: Colors.purple,
-                                  width: 2
-                              ),
-                              borderRadius: BorderRadius.circular(50)
-                          ),
-                          child: Row(
-                            children: <Widget>[
-                              Container(
-                                width: 60,
-                                child:Icon(
-                                  Icons.email,
-                                  size: 20,
-                                  color: Colors.grey,
-                                ),
-                              ),
-                              Expanded(
-                                child: TextFormField(
-                                  controller: _email2controller,
-                                  decoration: InputDecoration(
-                                    contentPadding: EdgeInsets.symmetric(vertical: 20),
-                                    border: InputBorder.none,
-                                    hintText: 'Entrez Votre Email',
-                                  ),
-                                ),
-                              )
-                            ],
-                          ),
-                        ),
-                        SizedBox(height: 10,),
-                        Container(
-                          decoration: BoxDecoration(
-                              border: Border.all(
-                                  color: Colors.purple,
-                                  width: 2
-                              ),
-                              borderRadius: BorderRadius.circular(50)
-                          ),
-                          child: Row(
-                            children: <Widget>[
-                              Container(
-                                width: 60,
-                                child:Icon(
-                                  Icons.vpn_key,
-                                  size: 20,
-                                  color: Colors.grey,
-                                ),
-                              ),
-                              Expanded(
-                                child: TextFormField(
-                                  obscureText: true,
-                                  controller: _password2controller,
-                                  decoration: InputDecoration(
-                                    contentPadding: EdgeInsets.symmetric(vertical: 20),
-                                    border: InputBorder.none,
-                                    hintText: 'Entrez votre mot de passe',
-                                  ),
-                                ),
-                              )
-                            ],
-                          ),
-                        ),
-                      ],
-
-                    ),
-                    Column(
-                      children: <Widget>
-                      [
-                        GestureDetector(
-                          onTap: (){
-                            _sinup(_email2controller.text,_password2controller.text ,_fullnamecontroller.text,context);
-
-                          },
-                          child: Container(
-                            decoration: BoxDecoration(
-                                color: Colors.purple,
-                                borderRadius: BorderRadius.circular(50)
-                            ),
-                            padding: EdgeInsets.all(20),
-                            child: Center(
-                              child: Text(
-                                "créere un compte",
-                                style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 17
-
-                                ),
+                child:
+                SingleChildScrollView(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: <Widget>[
+                      Column(
+                        children: <Widget>[
+                          Container(
+                            margin: EdgeInsets.only(bottom: 20),
+                            child: Text(
+                                "créer un nouveau compte ",
+                              style: TextStyle(
+                                fontSize: 20
                               ),
                             ),
                           ),
-                        ),
-                        SizedBox(
-                          height: 20,
-                        ),
-                        GestureDetector(
-                          onTap: (){
-                            setState(() {
-                              _pagestate =1;
-                            });
-                          },
-                          child: Container(
+
+                          Container(
                             decoration: BoxDecoration(
                                 border: Border.all(
                                     color: Colors.purple,
@@ -564,22 +434,157 @@ class _LoginPageState extends State<LoginPage> {
                                 ),
                                 borderRadius: BorderRadius.circular(50)
                             ),
-                            padding: EdgeInsets.all(20),
-                            child: Center(
-                              child: Text(
-                                "retour",
-                                style: TextStyle(
+                            child: Row(
+                              children: <Widget>[
+                                Container(
+                                  width: 60,
+                                  child:Icon(
+                                    Icons.person,
+                                    size: 20,
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                                Expanded(
+                                  child: TextFormField(
+                                    controller: _fullnamecontroller,
+                                    decoration: InputDecoration(
+                                      contentPadding: EdgeInsets.symmetric(vertical: 20),
+                                      border: InputBorder.none,
+                                      hintText: 'Entrez Votre nom et prénom',
+                                    ),
+                                  ),
+                                )
+                              ],
+                            ),
+                          ),
+                          SizedBox(height: 10,),
+                          Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
                                     color: Colors.purple,
-                                    fontSize: 17
+                                    width: 2
+                                ),
+                                borderRadius: BorderRadius.circular(50)
+                            ),
+                            child: Row(
+                              children: <Widget>[
+                                Container(
+                                  width: 60,
+                                  child:Icon(
+                                    Icons.email,
+                                    size: 20,
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                                Expanded(
+                                  child: TextFormField(
+                                    controller: _email2controller,
+                                    decoration: InputDecoration(
+                                      contentPadding: EdgeInsets.symmetric(vertical: 20),
+                                      border: InputBorder.none,
+                                      hintText: 'Entrez Votre Email',
+                                    ),
+                                  ),
+                                )
+                              ],
+                            ),
+                          ),
+                          SizedBox(height: 10,),
+                          Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Colors.purple,
+                                    width: 2
+                                ),
+                                borderRadius: BorderRadius.circular(50)
+                            ),
+                            child: Row(
+                              children: <Widget>[
+                                Container(
+                                  width: 60,
+                                  child:Icon(
+                                    Icons.vpn_key,
+                                    size: 20,
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                                Expanded(
+                                  child: TextFormField(
+                                    obscureText: true,
+                                    controller: _password2controller,
+                                    decoration: InputDecoration(
+                                      contentPadding: EdgeInsets.symmetric(vertical: 20),
+                                      border: InputBorder.none,
+                                      hintText: 'Entrez votre mot de passe',
+                                    ),
+                                  ),
+                                )
+                              ],
+                            ),
+                          ),
+                        ],
 
+                      ),
+                      Column(
+                        children: <Widget>
+                        [
+                          GestureDetector(
+                            onTap: (){
+                              _sinup(_email2controller.text,_password2controller.text ,_fullnamecontroller.text,context);
+
+                            },
+                            child: Container(
+                              decoration: BoxDecoration(
+                                  color: Colors.purple,
+                                  borderRadius: BorderRadius.circular(50)
+                              ),
+                              padding: EdgeInsets.all(20),
+                              child: Center(
+                                child: Text(
+                                  "créere un compte",
+                                  style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 17
+
+                                  ),
                                 ),
                               ),
                             ),
                           ),
-                        ),
-                      ],
-                    ),
-                  ],
+                          SizedBox(
+                            height: 20,
+                          ),
+                          GestureDetector(
+                            onTap: (){
+                              setState(() {
+                                _pagestate =1;
+                              });
+                            },
+                            child: Container(
+                              decoration: BoxDecoration(
+                                  border: Border.all(
+                                      color: Colors.purple,
+                                      width: 2
+                                  ),
+                                  borderRadius: BorderRadius.circular(50)
+                              ),
+                              padding: EdgeInsets.all(20),
+                              child: Center(
+                                child: Text(
+                                  "retour",
+                                  style: TextStyle(
+                                      color: Colors.purple,
+                                      fontSize: 17
+
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
                 ),
               ),
         ],
