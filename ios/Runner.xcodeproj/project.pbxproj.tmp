@@ -7,7 +7,7 @@
 	<key>classes</key>
 	<dict/>
 	<key>objectVersion</key>
-	<string>46</string>
+	<string>50</string>
 	<key>objects</key>
 	<dict>
 		<key>1498D2321E8E86230040F4C2</key>
@@ -43,8 +43,6 @@
 		</dict>
 		<key>249021D3217E4FDB00AE95B9</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7AFA3C8E1D35360C0083082E</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -163,7 +161,10 @@
 				<key>INFOPLIST_FILE</key>
 				<string>Runner/Info.plist</string>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+				</array>
 				<key>LIBRARY_SEARCH_PATHS</key>
 				<array>
 					<string>$(inherited)</string>
@@ -225,6 +226,28 @@
 		<dict>
 			<key>fileRef</key>
 			<string>3B3967151E833CAA004F5970</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5A5CCBFC24EC65B30094FABC</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>name</key>
+			<string>GoogleService-Info.plist</string>
+			<key>path</key>
+			<string>../../../Downloads/GoogleService-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A5CCBFD24EC65B30094FABC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5A5CCBFC24EC65B30094FABC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -464,6 +487,7 @@
 			<array>
 				<string>97C147011CF9000F007C117D</string>
 				<string>3B3967161E833CAA004F5970</string>
+				<string>5A5CCBFD24EC65B30094FABC</string>
 				<string>97C146FE1CF9000F007C117D</string>
 				<string>97C146FC1CF9000F007C117D</string>
 			</array>
@@ -530,6 +554,7 @@
 		<dict>
 			<key>children</key>
 			<array>
+				<string>5A5CCBFC24EC65B30094FABC</string>
 				<string>97C146FA1CF9000F007C117D</string>
 				<string>97C146FD1CF9000F007C117D</string>
 				<string>97C146FF1CF9000F007C117D</string>
@@ -655,8 +680,6 @@
 		</dict>
 		<key>97C147031CF9000F007C117D</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>9740EEB21CF90195004384FC</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -762,8 +785,6 @@
 		</dict>
 		<key>97C147041CF9000F007C117D</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7AFA3C8E1D35360C0083082E</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -850,8 +871,10 @@
 				<string>iphoneos</string>
 				<key>SUPPORTED_PLATFORMS</key>
 				<string>iphoneos</string>
+				<key>SWIFT_COMPILATION_MODE</key>
+				<string>wholemodule</string>
 				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Owholemodule</string>
+				<string>-O</string>
 				<key>TARGETED_DEVICE_FAMILY</key>
 				<string>1,2</string>
 				<key>VALIDATE_PRODUCT</key>
@@ -899,7 +922,10 @@
 				<key>INFOPLIST_FILE</key>
 				<string>Runner/Info.plist</string>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+				</array>
 				<key>LIBRARY_SEARCH_PATHS</key>
 				<array>
 					<string>$(inherited)</string>
@@ -945,7 +971,10 @@
 				<key>INFOPLIST_FILE</key>
 				<string>Runner/Info.plist</string>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+				</array>
 				<key>LIBRARY_SEARCH_PATHS</key>
 				<array>
 					<string>$(inherited)</string>
