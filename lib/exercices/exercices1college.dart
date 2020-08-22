@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-
-import 'execicespdf1college.dart';
 class exo1college extends StatefulWidget {
   @override
   _exo1collegeState createState() => _exo1collegeState();

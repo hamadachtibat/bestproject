@@ -6,7 +6,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_alfadl2/exercices/exercices1college.dart';
 import 'package:flutter_alfadl2/lessonupload/uploadlesson.dart';
-import 'package:flutter_alfadl2/primairelesson/primaire1videos.dart';
 import 'package:flutter_alfadl2/services/auth.dart';
 import 'package:provider/provider.dart';
 
@@ -146,37 +145,7 @@ class _pri1cState extends State<pri1c> {
                                   ),
                                 ),
                               ),
-                              GestureDetector(
-                                onTap:  (){
-                                  Navigator.push(context, new MaterialPageRoute(
-                                    builder: (context) => primairevideos(),
-                                  ));
-                                },
-                                child: Container(
 
-                                  margin: EdgeInsets.only(left:20,top: 10),
-                                  height: 200,
-                                  width: 170,
-                                  decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(24),
-                                    gradient: LinearGradient(
-                                      colors: [Colors.lightGreen,Colors.green],
-                                    ),
-                                  ),
-                                  child: Column(
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    crossAxisAlignment: CrossAxisAlignment.center,
-                                    children: <Widget>[
-                                      Text("Les Videos",
-                                        style: TextStyle(
-                                            fontSize: 25
-                                        ),),
-                                      Image.asset("assets/images/exam.png",
-                                        width: 100, ),
-                                    ],
-                                  ),
-                                ),
-                              ),
                             ],
                           ),
                                        SizedBox(height: 20,),
@@ -300,35 +269,28 @@ class _pri1cState extends State<pri1c> {
                                          ),
                                        ),
                                      ),
-                                     GestureDetector(
-                                       onTap:  (){
-                                         Navigator.push(context, new MaterialPageRoute(
-                                           builder: (context) => primairevideos(),
-                                         ));
-                                       },
-                                       child: Container(
+                                     Container(
 
-                                         margin: EdgeInsets.only(left:20,top: 10),
-                                         height: 200,
-                                         width: 170,
-                                         decoration: BoxDecoration(
-                                           borderRadius: BorderRadius.circular(24),
-                                           gradient: LinearGradient(
-                                             colors: [Colors.lightGreen,Colors.green],
-                                           ),
+                                       margin: EdgeInsets.only(left:20,top: 10),
+                                       height: 200,
+                                       width: 170,
+                                       decoration: BoxDecoration(
+                                         borderRadius: BorderRadius.circular(24),
+                                         gradient: LinearGradient(
+                                           colors: [Colors.lightGreen,Colors.green],
                                          ),
-                                         child: Column(
-                                           mainAxisAlignment: MainAxisAlignment.center,
-                                           crossAxisAlignment: CrossAxisAlignment.center,
-                                           children: <Widget>[
-                                             Text("Les Videos",
-                                               style: TextStyle(
-                                                   fontSize: 25
-                                               ),),
-                                             Image.asset("assets/images/exam.png",
-                                               width: 100, ),
-                                           ],
-                                         ),
+                                       ),
+                                       child: Column(
+                                         mainAxisAlignment: MainAxisAlignment.center,
+                                         crossAxisAlignment: CrossAxisAlignment.center,
+                                         children: <Widget>[
+                                           Text("Les Videos",
+                                             style: TextStyle(
+                                                 fontSize: 25
+                                             ),),
+                                           Image.asset("assets/images/exam.png",
+                                             width: 100, ),
+                                         ],
                                        ),
                                      ),
                                    ],
@@ -454,35 +416,28 @@ class _pri1cState extends State<pri1c> {
                                          ),
                                        ),
                                      ),
-                                     GestureDetector(
-                                       onTap:  (){
-                                         Navigator.push(context, new MaterialPageRoute(
-                                           builder: (context) => primairevideos(),
-                                         ));
-                                       },
-                                       child: Container(
+                                     Container(
 
-                                         margin: EdgeInsets.only(left:20,top: 10),
-                                         height: 200,
-                                         width: 170,
-                                         decoration: BoxDecoration(
-                                           borderRadius: BorderRadius.circular(24),
-                                           gradient: LinearGradient(
-                                             colors: [Colors.lightGreen,Colors.green],
-                                           ),
+                                       margin: EdgeInsets.only(left:20,top: 10),
+                                       height: 200,
+                                       width: 170,
+                                       decoration: BoxDecoration(
+                                         borderRadius: BorderRadius.circular(24),
+                                         gradient: LinearGradient(
+                                           colors: [Colors.lightGreen,Colors.green],
                                          ),
-                                         child: Column(
-                                           mainAxisAlignment: MainAxisAlignment.center,
-                                           crossAxisAlignment: CrossAxisAlignment.center,
-                                           children: <Widget>[
-                                             Text("Les Videos",
-                                               style: TextStyle(
-                                                   fontSize: 25
-                                               ),),
-                                             Image.asset("assets/images/exam.png",
-                                               width: 100, ),
-                                           ],
-                                         ),
+                                       ),
+                                       child: Column(
+                                         mainAxisAlignment: MainAxisAlignment.center,
+                                         crossAxisAlignment: CrossAxisAlignment.center,
+                                         children: <Widget>[
+                                           Text("Les Videos",
+                                             style: TextStyle(
+                                                 fontSize: 25
+                                             ),),
+                                           Image.asset("assets/images/exam.png",
+                                             width: 100, ),
+                                         ],
                                        ),
                                      ),
                                    ],
@@ -608,35 +563,28 @@ class _pri1cState extends State<pri1c> {
                                          ),
                                        ),
                                      ),
-                                     GestureDetector(
-                                       onTap:  (){
-                                         Navigator.push(context, new MaterialPageRoute(
-                                           builder: (context) => primairevideos(),
-                                         ));
-                                       },
-                                       child: Container(
+                                     Container(
 
-                                         margin: EdgeInsets.only(left:20,top: 10),
-                                         height: 200,
-                                         width: 170,
-                                         decoration: BoxDecoration(
-                                           borderRadius: BorderRadius.circular(24),
-                                           gradient: LinearGradient(
-                                             colors: [Colors.lightGreen,Colors.green],
-                                           ),
+                                       margin: EdgeInsets.only(left:20,top: 10),
+                                       height: 200,
+                                       width: 170,
+                                       decoration: BoxDecoration(
+                                         borderRadius: BorderRadius.circular(24),
+                                         gradient: LinearGradient(
+                                           colors: [Colors.lightGreen,Colors.green],
                                          ),
-                                         child: Column(
-                                           mainAxisAlignment: MainAxisAlignment.center,
-                                           crossAxisAlignment: CrossAxisAlignment.center,
-                                           children: <Widget>[
-                                             Text("Les Videos",
-                                               style: TextStyle(
-                                                   fontSize: 25
-                                               ),),
-                                             Image.asset("assets/images/exam.png",
-                                               width: 100, ),
-                                           ],
-                                         ),
+                                       ),
+                                       child: Column(
+                                         mainAxisAlignment: MainAxisAlignment.center,
+                                         crossAxisAlignment: CrossAxisAlignment.center,
+                                         children: <Widget>[
+                                           Text("Les Videos",
+                                             style: TextStyle(
+                                                 fontSize: 25
+                                             ),),
+                                           Image.asset("assets/images/exam.png",
+                                             width: 100, ),
+                                         ],
                                        ),
                                      ),
                                    ],
@@ -762,35 +710,28 @@ class _pri1cState extends State<pri1c> {
                                          ),
                                        ),
                                      ),
-                                     GestureDetector(
-                                       onTap:  (){
-                                         Navigator.push(context, new MaterialPageRoute(
-                                           builder: (context) => primairevideos(),
-                                         ));
-                                       },
-                                       child: Container(
+                                     Container(
 
-                                         margin: EdgeInsets.only(left:20,top: 10),
-                                         height: 200,
-                                         width: 170,
-                                         decoration: BoxDecoration(
-                                           borderRadius: BorderRadius.circular(24),
-                                           gradient: LinearGradient(
-                                             colors: [Colors.lightGreen,Colors.green],
-                                           ),
+                                       margin: EdgeInsets.only(left:20,top: 10),
+                                       height: 200,
+                                       width: 170,
+                                       decoration: BoxDecoration(
+                                         borderRadius: BorderRadius.circular(24),
+                                         gradient: LinearGradient(
+                                           colors: [Colors.lightGreen,Colors.green],
                                          ),
-                                         child: Column(
-                                           mainAxisAlignment: MainAxisAlignment.center,
-                                           crossAxisAlignment: CrossAxisAlignment.center,
-                                           children: <Widget>[
-                                             Text("Les Videos",
-                                               style: TextStyle(
-                                                   fontSize: 25
-                                               ),),
-                                             Image.asset("assets/images/exam.png",
-                                               width: 100, ),
-                                           ],
-                                         ),
+                                       ),
+                                       child: Column(
+                                         mainAxisAlignment: MainAxisAlignment.center,
+                                         crossAxisAlignment: CrossAxisAlignment.center,
+                                         children: <Widget>[
+                                           Text("Les Videos",
+                                             style: TextStyle(
+                                                 fontSize: 25
+                                             ),),
+                                           Image.asset("assets/images/exam.png",
+                                             width: 100, ),
+                                         ],
                                        ),
                                      ),
                                    ],
@@ -916,35 +857,28 @@ class _pri1cState extends State<pri1c> {
                                          ),
                                        ),
                                      ),
-                                     GestureDetector(
-                                       onTap:  (){
-                                         Navigator.push(context, new MaterialPageRoute(
-                                           builder: (context) => primairevideos(),
-                                         ));
-                                       },
-                                       child: Container(
+                                     Container(
 
-                                         margin: EdgeInsets.only(left:20,top: 10),
-                                         height: 200,
-                                         width: 170,
-                                         decoration: BoxDecoration(
-                                           borderRadius: BorderRadius.circular(24),
-                                           gradient: LinearGradient(
-                                             colors: [Colors.lightGreen,Colors.green],
-                                           ),
+                                       margin: EdgeInsets.only(left:20,top: 10),
+                                       height: 200,
+                                       width: 170,
+                                       decoration: BoxDecoration(
+                                         borderRadius: BorderRadius.circular(24),
+                                         gradient: LinearGradient(
+                                           colors: [Colors.lightGreen,Colors.green],
                                          ),
-                                         child: Column(
-                                           mainAxisAlignment: MainAxisAlignment.center,
-                                           crossAxisAlignment: CrossAxisAlignment.center,
-                                           children: <Widget>[
-                                             Text("Les Videos",
-                                               style: TextStyle(
-                                                   fontSize: 25
-                                               ),),
-                                             Image.asset("assets/images/exam.png",
-                                               width: 100, ),
-                                           ],
-                                         ),
+                                       ),
+                                       child: Column(
+                                         mainAxisAlignment: MainAxisAlignment.center,
+                                         crossAxisAlignment: CrossAxisAlignment.center,
+                                         children: <Widget>[
+                                           Text("Les Videos",
+                                             style: TextStyle(
+                                                 fontSize: 25
+                                             ),),
+                                           Image.asset("assets/images/exam.png",
+                                             width: 100, ),
+                                         ],
                                        ),
                                      ),
                                    ],
