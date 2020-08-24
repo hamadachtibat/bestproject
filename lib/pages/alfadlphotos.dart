@@ -11,13 +11,14 @@ class _fadlphotoState extends State<fadlphoto> {
   @override
   Widget build(BuildContext context) {
     Widget image_slider_view = Container(
-      margin: EdgeInsets.symmetric(horizontal: 10,vertical: 130),
+      margin: EdgeInsets.symmetric(horizontal: 10,vertical: 100),
       height: 400,
 
      child: Carousel(
        boxFit: BoxFit.fill,
        autoplay: true,
        borderRadius: true,
+
        animationDuration: Duration(seconds: 3),
        autoplayDuration: Duration(seconds: 5),
        images: [
