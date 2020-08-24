@@ -155,7 +155,7 @@ class _LoginPageState extends State<LoginPage> {
                                   milliseconds: 1000
                               ),
                               margin:  EdgeInsets.only(
-                                top: _tophead,
+                                top: 50,
                               ),
                               child: Text(
                                 "BIENVENUE",
@@ -330,6 +330,7 @@ class _LoginPageState extends State<LoginPage> {
                               ),
                         ],
                       ),
+                      SizedBox(height: 20,),
                       Column(
                         children: <Widget>[
                           GestureDetector(

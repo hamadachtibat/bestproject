@@ -69,14 +69,7 @@ class _thirdannecollegeState extends State<thirdannecollege> {
 
           ],
         ),
-        bottomNavigationBar: CurvedNavigationBar(
-            backgroundColor: Colors.purple,
-            items: <Widget>[
-              Icon(Icons.location_on,),
-              Icon(Icons.home),
-              Icon(Icons.camera_alt),
-            ]
-        ),
+
       ),
 
     );

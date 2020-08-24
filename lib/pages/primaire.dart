@@ -24,14 +24,13 @@ class _primairelistState extends State<primairelist> {
 
       body: Stack(
         children: <Widget>[
-          SizedBox(height: 10),
           SingleChildScrollView(
-            child: Column(
 
-                    mainAxisAlignment: MainAxisAlignment.start,
-                   crossAxisAlignment: CrossAxisAlignment.start,
+            child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                   crossAxisAlignment: CrossAxisAlignment.center,
                    children: <Widget>[
-                    Expanded(
+                    SingleChildScrollView(
                       child: Row(
                             children: <Widget>[
                               GestureDetector(
@@ -101,7 +100,7 @@ class _primairelistState extends State<primairelist> {
                               ),
                     ),
                      SizedBox(height: 10,),
-                     Expanded(
+                     SingleChildScrollView(
                        child: Row(
                          children: <Widget>[
 
@@ -165,71 +164,67 @@ class _primairelistState extends State<primairelist> {
                        ),
                      ),
                      SizedBox(height: 10,),
-                     Row(
-                       children: <Widget>[
-                         Container(
-                           margin: EdgeInsets.only(top: 20,left: 20,right: 20),
-                           height: 150,
-                           width: 150,
-                           decoration: BoxDecoration(
-                             borderRadius: BorderRadius.circular(24),
-                             color: Colors.red,
+                     
+                     SingleChildScrollView(
+                       child: Row(
+                         children: <Widget>[
+                           Container(
+                             margin: EdgeInsets.only(top: 20,left: 20,right: 20),
+                             height: 150,
+                             width: 150,
+                             decoration: BoxDecoration(
+                               borderRadius: BorderRadius.circular(24),
+                               color: Colors.red,
+                             ),
+                             child: Row(
+                               children: <Widget>[
+                                 Image.asset("assets/images/alfadl.png",
+                                   width:50 ,),
+                                 Column(
+                                   mainAxisAlignment: MainAxisAlignment.center,
+                                   children: <Widget>[
+                                     Text("5 PRIMAIRE "),
+                                     SizedBox(height: 10,),
+                                     Image.asset("assets/images/kids.png",
+                                       width:70 ,),
+                                   ],
+                                 )
+                               ],
+                             ),
                            ),
-                           child: Row(
-                             children: <Widget>[
-                               Image.asset("assets/images/alfadl.png",
-                                 width:50 ,),
-                               Column(
-                                 mainAxisAlignment: MainAxisAlignment.center,
-                                 children: <Widget>[
-                                   Text("5 PRIMAIRE "),
-                                   SizedBox(height: 10,),
-                                   Image.asset("assets/images/kids.png",
-                                     width:70 ,),
-                                 ],
-                               )
-                             ],
+                           Container(
+                             margin: EdgeInsets.only(top: 20,left: 20,right: 20),
+                             height: 150,
+                             width: 150,
+                             decoration: BoxDecoration(
+                               borderRadius: BorderRadius.circular(24),
+                               color: Colors.purpleAccent,
+                             ),
+                             child: Row(
+                               children: <Widget>[
+                                 Image.asset("assets/images/alfadl.png",
+                                   width:50 ,),
+                                 Column(
+                                   mainAxisAlignment: MainAxisAlignment.center,
+                                   children: <Widget>[
+                                     Text("6 PRIMAIRE "),
+                                     SizedBox(height: 10,),
+                                     Image.asset("assets/images/kids.png",
+                                       width:70 ,),
+                                   ],
+                                 ),
+                               ],
+                             ),
                            ),
-                         ),
-                         Container(
-                           margin: EdgeInsets.only(top: 20,left: 20,right: 20),
-                           height: 150,
-                           width: 150,
-                           decoration: BoxDecoration(
-                             borderRadius: BorderRadius.circular(24),
-                             color: Colors.purpleAccent,
-                           ),
-                           child: Row(
-                             children: <Widget>[
-                               Image.asset("assets/images/alfadl.png",
-                                 width:50 ,),
-                               Column(
-                                 mainAxisAlignment: MainAxisAlignment.center,
-                                 children: <Widget>[
-                                   Text("6 PRIMAIRE "),
-                                   SizedBox(height: 10,),
-                                   Image.asset("assets/images/kids.png",
-                                     width:70 ,),
-                                 ],
-                               ),
-                             ],
-                           ),
-                         ),
-                       ],
+                         ],
+                       ),
                      ),
               ],
             ),
           ),
         ],
       ),
-      bottomNavigationBar: CurvedNavigationBar(
-          backgroundColor: Colors.purple,
-          items: <Widget>[
-            Icon(Icons.location_on,),
-            Icon(Icons.home),
-            Icon(Icons.camera_alt),
-          ]
-      ),
+
     );
   }
 }

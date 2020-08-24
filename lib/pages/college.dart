@@ -179,14 +179,7 @@ class _collegelistState extends State<collegelist> {
             )
         ],
       ),
-      bottomNavigationBar: CurvedNavigationBar(
-          backgroundColor: Colors.purple,
-          items: <Widget>[
-            Icon(Icons.location_on,),
-            Icon(Icons.home),
-            Icon(Icons.camera_alt),
-          ]
-      ),
+
     );
   }
 }

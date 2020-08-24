@@ -64,7 +64,7 @@ class _lyceelistState extends State<lyceelist> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: <Widget>[
-                            Text("TRONC COMMUN ",
+                            Text("T . C ",
                               style: TextStyle(
                                 fontSize: 23,
                               ),),
@@ -112,7 +112,7 @@ class _lyceelistState extends State<lyceelist> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: <Widget>[
-                            Text("1.A.B.S.exprimentales",
+                            Text("1.A.B.S.E",
                               style: TextStyle(
                                 fontSize: 21,
                               ),),
@@ -160,7 +160,7 @@ class _lyceelistState extends State<lyceelist> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: <Widget>[
-                            Text("1.A.B.S.économiques",
+                            Text("1.A.B.S.ECO",
                               style: TextStyle(
                                 fontSize: 21,
                               ),),
@@ -208,7 +208,7 @@ class _lyceelistState extends State<lyceelist> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: <Widget>[
-                            Text("2.A.B.S.PHYSIQUE",
+                            Text("2.A.B.S.PH",
                               style: TextStyle(
                                 fontSize: 21,
                               ),
@@ -276,14 +276,7 @@ class _lyceelistState extends State<lyceelist> {
           ],
         ),
       ),
-      bottomNavigationBar: CurvedNavigationBar(
-          backgroundColor: Colors.purple,
-          items: <Widget>[
-            Icon(Icons.location_on,),
-            Icon(Icons.home),
-            Icon(Icons.camera_alt),
-          ]
-      ),
+
     );
   }
 }
