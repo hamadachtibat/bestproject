@@ -801,7 +801,7 @@ class _lesson2frState extends State<lesson2fr> {
         "titre": _titrecontroller.text,
 
       };
-      Crudmethods().Aaddata2ea(lessondata).then((result) {
+      Crudmethods().Aaddata2fr(lessondata).then((result) {
         Navigator.pop(context);
       });
     } else {
