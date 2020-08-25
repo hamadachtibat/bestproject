@@ -2,7 +2,6 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_alfadl2/exercices/exercices1college.dart';
-import 'package:flutter_alfadl2/lessonupload/uploadlesson2p.dart';
 import 'package:flutter_alfadl2/lessonupload/uploadlesson3p.dart';
 import 'package:flutter_alfadl2/primairelesson/lessonviewer.dart';
 import 'package:flutter_alfadl2/services/auth.dart';
