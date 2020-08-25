@@ -246,7 +246,7 @@ class _pri1cState extends State<pri1c> {
                                        },
 
                                        child: Container(
-                                         margin: EdgeInsets.only(left: 20,right:5,top: 10 ),
+                                         margin: EdgeInsets.only(left: 20,top: 10 ),
                                          height: 200,
                                          width: 170,
                                          decoration: BoxDecoration(
@@ -270,7 +270,6 @@ class _pri1cState extends State<pri1c> {
                                        ),
                                      ),
                                      Container(
-
                                        margin: EdgeInsets.only(left:20,top: 10),
                                        height: 200,
                                        width: 170,
@@ -284,9 +283,9 @@ class _pri1cState extends State<pri1c> {
                                          mainAxisAlignment: MainAxisAlignment.center,
                                          crossAxisAlignment: CrossAxisAlignment.center,
                                          children: <Widget>[
-                                           Text("Les Videos",
+                                           Text("Videos",
                                              style: TextStyle(
-                                                 fontSize: 25
+                                                 fontSize: 24
                                              ),),
                                            Image.asset("assets/images/exam.png",
                                              width: 100, ),

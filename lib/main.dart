@@ -155,7 +155,7 @@ class _LoginPageState extends State<LoginPage> {
                                   milliseconds: 1000
                               ),
                               margin:  EdgeInsets.only(
-                                top: 50,
+                                top: 80,
                               ),
                               child: Text(
                                 "BIENVENUE",

@@ -135,13 +135,15 @@ class _uploadlesson1aState extends State<uploadlesson1a> {
                     child: Row(
                       children: <Widget>[
                         Icon(Icons.save_alt,
-                          size: 30,
+                          size: 25,
                           color: Colors.black,),
                         SizedBox(width: 10,),
-                        Text('Sauvgarder le Document',
-                          style: TextStyle(fontSize: 25,
-                              color: Colors.black),
+                        Expanded(
+                          child: Text('Sauvgarder le Doc',
+                            style: TextStyle(fontSize: 25,
+                                color: Colors.black),
 
+                          ),
                         )
                       ],
                     ),
