@@ -30,6 +30,7 @@ class _primairelistState extends State<primairelist> {
                     mainAxisAlignment: MainAxisAlignment.center,
                    crossAxisAlignment: CrossAxisAlignment.center,
                    children: <Widget>[
+                     SizedBox(height: 30,),
                     Row(
                           children: <Widget>[
                             GestureDetector(

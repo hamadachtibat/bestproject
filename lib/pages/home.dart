@@ -34,7 +34,7 @@ class _homepageState extends State<homepage> {
 
         child: Column(
           children: <Widget>[
-            SizedBox(height:5 ),
+            SizedBox(height:30),
              Center(
               child: Stack(
                   children: <Widget>[
