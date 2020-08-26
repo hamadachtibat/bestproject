@@ -17,7 +17,7 @@ class _collegelistState extends State<collegelist> {
       appBar: AppBar(
         elevation: 0,
         backgroundColor: Colors.purple,
-        title: Text("      choisisiez votre classe",
+        title: Text("choisisiez votre classe",
           style: TextStyle(
             fontSize: 23
         ),),
@@ -63,7 +63,7 @@ class _collegelistState extends State<collegelist> {
                            mainAxisAlignment: MainAxisAlignment.center,
                            crossAxisAlignment: CrossAxisAlignment.center,
                            children: <Widget>[
-                             Text("1 er année collége",
+                             Text("1.A.C.",
                              style: TextStyle(
                                fontSize: 23,
                              ),),
@@ -77,7 +77,7 @@ class _collegelistState extends State<collegelist> {
                      ),
                   ),
                 ),
-                SizedBox(height: 15,),
+                SizedBox(height: 20,),
                 GestureDetector(
                   onTap:  (){
                     Navigator.push(context, new MaterialPageRoute(
@@ -111,7 +111,7 @@ class _collegelistState extends State<collegelist> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: <Widget>[
-                            Text("2eme année collége",
+                            Text("2.A.C.",
                               style: TextStyle(
                                 fontSize: 23,
                               ),),
@@ -125,7 +125,7 @@ class _collegelistState extends State<collegelist> {
                     ),
                   ),
                 ),
-                SizedBox(height: 15,),
+                SizedBox(height: 20,),
                 GestureDetector(
                   onTap:  (){
                     Navigator.push(context, new MaterialPageRoute(
@@ -160,7 +160,7 @@ class _collegelistState extends State<collegelist> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: <Widget>[
-                            Text("3eme année collége",
+                            Text("3.A.C",
                               style: TextStyle(
                                 fontSize: 23,
                               ),),
