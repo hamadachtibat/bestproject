@@ -2,47 +2,47 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_alfadl2/exercices/exercices1college.dart';
-import 'package:flutter_alfadl2/lessonupload/uploadlesson4p.dart';
+import 'package:flutter_alfadl2/lessonupload/uploadlesson5p.dart';
 import 'package:flutter_alfadl2/primairelesson/lessonviewer.dart';
 import 'package:flutter_alfadl2/services/auth.dart';
 import 'package:provider/provider.dart';
 
-class pri4c extends StatefulWidget {
+class pri5c extends StatefulWidget {
   @override
-  _pri4cState createState() => _pri4cState();
+  _pri5cState createState() => _pri5cState();
 }
 
-class _pri4cState extends State<pri4c> {
+class _pri5cState extends State<pri5c> {
 
-  Future getlesson4ac()async{
+  Future getlesson5ac()async{
     var firestore =Firestore.instance;
-    QuerySnapshot qn= await firestore.collection("lessons4ac").getDocuments();
+    QuerySnapshot qn= await firestore.collection("lessons5ac").getDocuments();
     return qn.documents;
   }
-  Future getlesson4fr()async{
+  Future getlesson5fr()async{
     var firestore =Firestore.instance;
-    QuerySnapshot qn= await firestore.collection("lessons4fr").getDocuments();
+    QuerySnapshot qn= await firestore.collection("lessons5fr").getDocuments();
     return qn.documents;
   }
 
-  Future getlesson4ma()async{
+  Future getlesson5ma()async{
     var firestore =Firestore.instance;
-    QuerySnapshot qn= await firestore.collection("lessons4ma").getDocuments();
+    QuerySnapshot qn= await firestore.collection("lessons5ma").getDocuments();
     return qn.documents;
   }
-  Future getlesson4aarabe()async{
+  Future getlesson5aarabe()async{
     var firestore =Firestore.instance;
-    QuerySnapshot qn= await firestore.collection("lessons4ar").getDocuments();
+    QuerySnapshot qn= await firestore.collection("lessons5ar").getDocuments();
     return qn.documents;
   }
-  Future getlesson4eduis()async{
+  Future getlesson5eduis()async{
     var firestore =Firestore.instance;
-    QuerySnapshot qn= await firestore.collection("lessons4ei").getDocuments();
+    QuerySnapshot qn= await firestore.collection("lessons5ei").getDocuments();
     return qn.documents;
   }
-  Future getlesson4eduar()async{
+  Future getlesson5eduar()async{
     var firestore =Firestore.instance;
-    QuerySnapshot qn= await firestore.collection("lessons4ea").getDocuments();
+    QuerySnapshot qn= await firestore.collection("lessons5ea").getDocuments();
     return qn.documents;
   }
   bool isteacher=false;
@@ -185,7 +185,7 @@ class _pri4cState extends State<pri4c> {
                       child: Column(
                         children: <Widget>[
                           FutureBuilder(
-                              future: getlesson4ma(),
+                              future: getlesson5ma(),
                               builder: (context,snapshot) {
                                 if (snapshot.connectionState == ConnectionState.waiting) {
                                   return Center(child: Text('loading'),);
@@ -240,7 +240,7 @@ class _pri4cState extends State<pri4c> {
                           backgroundColor: Colors.white,
                           onPressed: (){
                             Navigator.push(context, new MaterialPageRoute(
-                              builder: (context) => lesson4m(),
+                              builder: (context) => lesson5m(),
                             ));
                           }
                       ),
@@ -330,7 +330,7 @@ class _pri4cState extends State<pri4c> {
                       child: Column(
                         children: <Widget>[
                           FutureBuilder(
-                              future: getlesson4ac(),
+                              future: getlesson5ac(),
                               builder: (context,snapshot) {
                                 if (snapshot.connectionState == ConnectionState.waiting) {
                                   return Center(child: Text('loading'),);
@@ -387,7 +387,7 @@ class _pri4cState extends State<pri4c> {
                           backgroundColor: Colors.white,
                           onPressed: (){
                             Navigator.push(context, new MaterialPageRoute(
-                              builder: (context) => lesson4ac(),
+                              builder: (context) => lesson5ac(),
                             ));
                           }
                       ),
@@ -477,7 +477,7 @@ class _pri4cState extends State<pri4c> {
                       child: Column(
                         children: <Widget>[
                           FutureBuilder(
-                              future: getlesson4aarabe(),
+                              future: getlesson5aarabe(),
                               builder: (context,snapshot) {
                                 if (snapshot.connectionState == ConnectionState.waiting) {
                                   return Center(child: Text('loading'),);
@@ -534,7 +534,7 @@ class _pri4cState extends State<pri4c> {
                           backgroundColor: Colors.white,
                           onPressed: (){
                             Navigator.push(context, new MaterialPageRoute(
-                              builder: (context) => lesson4ar(),
+                              builder: (context) => lesson5ar(),
                             ));
                           }
                       ),
@@ -624,7 +624,7 @@ class _pri4cState extends State<pri4c> {
                       child: Column(
                         children: <Widget>[
                           FutureBuilder(
-                              future: getlesson4eduis(),
+                              future: getlesson5eduis(),
                               builder: (context,snapshot) {
                                 if (snapshot.connectionState == ConnectionState.waiting) {
                                   return Center(child: Text('loading.....'),);
@@ -681,7 +681,7 @@ class _pri4cState extends State<pri4c> {
                           backgroundColor: Colors.white,
                           onPressed: (){
                             Navigator.push(context, new MaterialPageRoute(
-                              builder: (context) => lesson4ei(),
+                              builder: (context) => lesson5ei(),
                             ));
                           }
                       ),
@@ -771,7 +771,7 @@ class _pri4cState extends State<pri4c> {
                       child: Column(
                         children: <Widget>[
                           FutureBuilder(
-                              future: getlesson4eduar(),
+                              future: getlesson5eduar(),
                               builder: (context,snapshot) {
                                 if (snapshot.connectionState == ConnectionState.waiting) {
                                   return Center(child: Text('loading'),);
@@ -828,7 +828,7 @@ class _pri4cState extends State<pri4c> {
                           backgroundColor: Colors.white,
                           onPressed: (){
                             Navigator.push(context, new MaterialPageRoute(
-                              builder: (context) => lesson4ea(),
+                              builder: (context) => lesson5ea(),
                             ));
                           }
                       ),
@@ -918,7 +918,7 @@ class _pri4cState extends State<pri4c> {
                       child: Column(
                         children: <Widget>[
                           FutureBuilder(
-                              future: getlesson4fr(),
+                              future: getlesson5fr(),
                               builder: (context,snapshot) {
                                 if (snapshot.connectionState == ConnectionState.waiting) {
                                   return Center(child: Text('loading'),);
@@ -975,7 +975,7 @@ class _pri4cState extends State<pri4c> {
                           backgroundColor: Colors.white,
                           onPressed: (){
                             Navigator.push(context, new MaterialPageRoute(
-                              builder: (context) => lesson4fr(),
+                              builder: (context) => lesson5fr(),
                             ));
                           }
                       ),
