@@ -202,4 +202,43 @@ import 'package:cloud_firestore/cloud_firestore.dart';
        print('error');
      });
    }
+   Future<void> Aaddata6ma(lessondata) async {
+     Firestore.instance.collection("lessons6ma").add(lessondata).catchError((
+         e) {
+       print('error');
+     });
+   }
+
+   Future<void> Aaddata6ac(lessondata) async {
+     Firestore.instance.collection("lessons6ac").add(lessondata).catchError((
+         e) {
+       print('error');
+     });
+   }
+
+   Future<void> Aaddata6ar(lessondata) async {
+     Firestore.instance.collection("lessons6ar").add(lessondata).catchError((
+         e) {
+       print('error');
+     });
+   }
+
+   Future<void> Aaddata6ei(lessondata) async {
+     Firestore.instance.collection("lessons6ei").add(lessondata).catchError((
+         e) {
+       print('error');
+     });
+   }
+   Future<void> Aaddata6ea(lessondata) async {
+     Firestore.instance.collection("lessons6ea").add(lessondata).catchError((
+         e) {
+       print('error');
+     });
+   }
+   Future<void> Aaddata6fr(lessondata) async {
+     Firestore.instance.collection("lessons6fr").add(lessondata).catchError((
+         e) {
+       print('error');
+     });
+   }
  }

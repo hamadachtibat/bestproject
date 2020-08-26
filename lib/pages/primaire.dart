@@ -4,6 +4,7 @@ import 'package:flutter_alfadl2/pages/primaire2classe.dart';
 import 'package:flutter_alfadl2/pages/primaire3classe.dart';
 import 'package:flutter_alfadl2/pages/primaire4classe.dart';
 import 'package:flutter_alfadl2/pages/primaire5classe.dart';
+import 'package:flutter_alfadl2/pages/primaire6classe.dart';
 import 'package:flutter_alfadl2/primairelesson/primaire1classe.dart';
 class primairelist extends StatefulWidget {
   @override
@@ -203,28 +204,35 @@ class _primairelistState extends State<primairelist> {
                              ),
                            ),
                          ),
-                         Container(
-                           margin: EdgeInsets.only(top: 20,left: 20,),
-                           height: 150,
-                           width: 150,
-                           decoration: BoxDecoration(
-                             borderRadius: BorderRadius.circular(24),
-                             color: Colors.purpleAccent,
-                           ),
-                           child: Row(
-                             children: <Widget>[
-                               Image.asset("assets/images/alfadl.png",
-                                 width:50 ,),
-                               Column(
-                                 mainAxisAlignment: MainAxisAlignment.center,
-                                 children: <Widget>[
-                                   Text("6 PRIMAIRE "),
-                                   SizedBox(height: 10,),
-                                   Image.asset("assets/images/kids.png",
-                                     width:70 ,),
-                                 ],
-                               ),
-                             ],
+                         GestureDetector(
+                           onTap: (){
+                             Navigator.push(context, new MaterialPageRoute(
+                               builder: (context) => pri6c(),
+                             ));
+                           },
+                           child: Container(
+                             margin: EdgeInsets.only(top: 20,left: 20,),
+                             height: 150,
+                             width: 150,
+                             decoration: BoxDecoration(
+                               borderRadius: BorderRadius.circular(24),
+                               color: Colors.purpleAccent,
+                             ),
+                             child: Row(
+                               children: <Widget>[
+                                 Image.asset("assets/images/alfadl.png",
+                                   width:50 ,),
+                                 Column(
+                                   mainAxisAlignment: MainAxisAlignment.center,
+                                   children: <Widget>[
+                                     Text("6 PRIMAIRE "),
+                                     SizedBox(height: 10,),
+                                     Image.asset("assets/images/kids.png",
+                                       width:70 ,),
+                                   ],
+                                 ),
+                               ],
+                             ),
                            ),
                          ),
                        ],
