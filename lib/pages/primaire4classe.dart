@@ -121,7 +121,7 @@ class _pri4cState extends State<pri4c> {
                           child: Container(
                             margin: EdgeInsets.only(left: 20,right:5,top: 10 ),
                             height: 200,
-                            width: 170,
+                            width: 140,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(24),
                               gradient: LinearGradient(
@@ -145,7 +145,7 @@ class _pri4cState extends State<pri4c> {
                         Container(
                           margin: EdgeInsets.only(left:20,top: 10),
                           height: 200,
-                          width: 170,
+                          width: 140,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(24),
                             gradient: LinearGradient(
@@ -265,7 +265,7 @@ class _pri4cState extends State<pri4c> {
                           child: Container(
                             margin: EdgeInsets.only(left: 20,right:5,top: 10 ),
                             height: 200,
-                            width: 170,
+                            width: 140,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(24),
                               gradient: LinearGradient(
@@ -290,7 +290,7 @@ class _pri4cState extends State<pri4c> {
 
                           margin: EdgeInsets.only(left:20,top: 10),
                           height: 200,
-                          width: 170,
+                          width: 140,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(24),
                             gradient: LinearGradient(
@@ -412,7 +412,7 @@ class _pri4cState extends State<pri4c> {
                           child: Container(
                             margin: EdgeInsets.only(left: 20,right:5,top: 10 ),
                             height: 200,
-                            width: 170,
+                            width: 140,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(24),
                               gradient: LinearGradient(
@@ -437,7 +437,7 @@ class _pri4cState extends State<pri4c> {
 
                           margin: EdgeInsets.only(left:20,top: 10),
                           height: 200,
-                          width: 170,
+                          width: 140,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(24),
                             gradient: LinearGradient(
@@ -559,7 +559,7 @@ class _pri4cState extends State<pri4c> {
                           child: Container(
                             margin: EdgeInsets.only(left: 20,right:5,top: 10 ),
                             height: 200,
-                            width: 170,
+                            width: 140,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(24),
                               gradient: LinearGradient(
@@ -584,7 +584,7 @@ class _pri4cState extends State<pri4c> {
 
                           margin: EdgeInsets.only(left:20,top: 10),
                           height: 200,
-                          width: 170,
+                          width: 140,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(24),
                             gradient: LinearGradient(
@@ -706,7 +706,7 @@ class _pri4cState extends State<pri4c> {
                           child: Container(
                             margin: EdgeInsets.only(left: 20,right:5,top: 10 ),
                             height: 200,
-                            width: 170,
+                            width: 140,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(24),
                               gradient: LinearGradient(
@@ -731,7 +731,7 @@ class _pri4cState extends State<pri4c> {
 
                           margin: EdgeInsets.only(left:20,top: 10),
                           height: 200,
-                          width: 170,
+                          width: 140,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(24),
                             gradient: LinearGradient(
@@ -853,7 +853,7 @@ class _pri4cState extends State<pri4c> {
                           child: Container(
                             margin: EdgeInsets.only(left: 20,right:5,top: 10 ),
                             height: 200,
-                            width: 170,
+                            width: 140,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(24),
                               gradient: LinearGradient(
@@ -878,7 +878,7 @@ class _pri4cState extends State<pri4c> {
 
                           margin: EdgeInsets.only(left:20,top: 10),
                           height: 200,
-                          width: 170,
+                          width: 140,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(24),
                             gradient: LinearGradient(

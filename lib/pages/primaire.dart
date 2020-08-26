@@ -42,7 +42,7 @@ class _primairelistState extends State<primairelist> {
                                 ));
                               },
                               child: Container(
-                                margin: EdgeInsets.only(top: 30,left: 20,right: 20),
+                                margin: EdgeInsets.only(top: 30,left: 20,right: 10),
                                 height: 150,
                                 width: 150,
                                 decoration: BoxDecoration(
@@ -74,7 +74,7 @@ class _primairelistState extends State<primairelist> {
                                 ));
                               },
                               child: Container(
-                                margin: EdgeInsets.only(top: 30,left: 20,),
+                                margin: EdgeInsets.only(top: 30,left: 10,),
                                 height: 150,
                                 width: 150,
                                 decoration: BoxDecoration(
@@ -112,7 +112,7 @@ class _primairelistState extends State<primairelist> {
                            },
                            child: Container(
 
-                             margin: EdgeInsets.only(top: 20,left: 20,right: 20),
+                             margin: EdgeInsets.only(top: 20,left: 20,right: 10),
                              height: 150,
                              width: 150,
                              decoration: BoxDecoration(
@@ -143,7 +143,7 @@ class _primairelistState extends State<primairelist> {
                              ));
                            },
                            child: Container(
-                             margin: EdgeInsets.only(top: 20,left: 20,),
+                             margin: EdgeInsets.only(top: 20,left: 10,),
                              height: 150,
                              width: 150,
                              decoration: BoxDecoration(
@@ -180,7 +180,7 @@ class _primairelistState extends State<primairelist> {
                              ));
                            },
                            child: Container(
-                             margin: EdgeInsets.only(top: 20,left: 20,right: 20),
+                             margin: EdgeInsets.only(top: 20,left: 20,right: 10),
                              height: 150,
                              width: 150,
                              decoration: BoxDecoration(
@@ -211,7 +211,7 @@ class _primairelistState extends State<primairelist> {
                              ));
                            },
                            child: Container(
-                             margin: EdgeInsets.only(top: 20,left: 20,),
+                             margin: EdgeInsets.only(top: 20,left: 10,),
                              height: 150,
                              width: 150,
                              decoration: BoxDecoration(

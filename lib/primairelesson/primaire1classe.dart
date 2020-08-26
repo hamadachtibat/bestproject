@@ -124,7 +124,7 @@ class _pri1cState extends State<pri1c> {
                                           child: Container(
                                                margin: EdgeInsets.only(left: 20,right:5,top: 10 ),
                                                  height: 200,
-                                               width: 170,
+                                               width: 140,
                                                 decoration: BoxDecoration(
                                                 borderRadius: BorderRadius.circular(24),
                                                   gradient: LinearGradient(
@@ -145,7 +145,30 @@ class _pri1cState extends State<pri1c> {
                                   ),
                                 ),
                               ),
+                                               Container(
 
+                                                 margin: EdgeInsets.only(left:20,top: 10),
+                                                 height: 200,
+                                                 width: 140,
+                                                 decoration: BoxDecoration(
+                                                   borderRadius: BorderRadius.circular(24),
+                                                   gradient: LinearGradient(
+                                                     colors: [Colors.lightGreen,Colors.green],
+                                                   ),
+                                                 ),
+                                                 child: Column(
+                                                   mainAxisAlignment: MainAxisAlignment.center,
+                                                   crossAxisAlignment: CrossAxisAlignment.center,
+                                                   children: <Widget>[
+                                                     Text("Les Videos",
+                                                       style: TextStyle(
+                                                           fontSize: 25
+                                                       ),),
+                                                     Image.asset("assets/images/exam.png",
+                                                       width: 100, ),
+                                                   ],
+                                                 ),
+                                               ),
                             ],
                           ),
                                        SizedBox(height: 20,),
@@ -394,7 +417,7 @@ class _pri1cState extends State<pri1c> {
                                        child: Container(
                                          margin: EdgeInsets.only(left: 20,right:5,top: 10 ),
                                          height: 200,
-                                         width: 170,
+                                         width: 140,
                                          decoration: BoxDecoration(
                                            borderRadius: BorderRadius.circular(24),
                                            gradient: LinearGradient(
@@ -419,7 +442,7 @@ class _pri1cState extends State<pri1c> {
 
                                        margin: EdgeInsets.only(left:20,top: 10),
                                        height: 200,
-                                       width: 170,
+                                       width: 140,
                                        decoration: BoxDecoration(
                                          borderRadius: BorderRadius.circular(24),
                                          gradient: LinearGradient(
@@ -541,7 +564,7 @@ class _pri1cState extends State<pri1c> {
                                        child: Container(
                                          margin: EdgeInsets.only(left: 20,right:5,top: 10 ),
                                          height: 200,
-                                         width: 170,
+                                         width: 140,
                                          decoration: BoxDecoration(
                                            borderRadius: BorderRadius.circular(24),
                                            gradient: LinearGradient(
@@ -566,7 +589,7 @@ class _pri1cState extends State<pri1c> {
 
                                        margin: EdgeInsets.only(left:20,top: 10),
                                        height: 200,
-                                       width: 170,
+                                       width: 140,
                                        decoration: BoxDecoration(
                                          borderRadius: BorderRadius.circular(24),
                                          gradient: LinearGradient(
@@ -688,7 +711,7 @@ class _pri1cState extends State<pri1c> {
                                        child: Container(
                                          margin: EdgeInsets.only(left: 20,right:5,top: 10 ),
                                          height: 200,
-                                         width: 170,
+                                         width: 140,
                                          decoration: BoxDecoration(
                                            borderRadius: BorderRadius.circular(24),
                                            gradient: LinearGradient(
@@ -713,7 +736,7 @@ class _pri1cState extends State<pri1c> {
 
                                        margin: EdgeInsets.only(left:20,top: 10),
                                        height: 200,
-                                       width: 170,
+                                       width: 140,
                                        decoration: BoxDecoration(
                                          borderRadius: BorderRadius.circular(24),
                                          gradient: LinearGradient(
@@ -835,7 +858,7 @@ class _pri1cState extends State<pri1c> {
                                        child: Container(
                                          margin: EdgeInsets.only(left: 20,right:5,top: 10 ),
                                          height: 200,
-                                         width: 170,
+                                         width: 140,
                                          decoration: BoxDecoration(
                                            borderRadius: BorderRadius.circular(24),
                                            gradient: LinearGradient(
@@ -860,7 +883,7 @@ class _pri1cState extends State<pri1c> {
 
                                        margin: EdgeInsets.only(left:20,top: 10),
                                        height: 200,
-                                       width: 170,
+                                       width: 140,
                                        decoration: BoxDecoration(
                                          borderRadius: BorderRadius.circular(24),
                                          gradient: LinearGradient(

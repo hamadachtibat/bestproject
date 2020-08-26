@@ -121,11 +121,11 @@ class _pri2cState extends State<pri2c> {
                           child: Container(
                             margin: EdgeInsets.only(left: 20,right:5,top: 10 ),
                             height: 200,
-                            width: 170,
+                            width: 140,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(24),
                               gradient: LinearGradient(
-                                colors: [Colors.lightGreen,Colors.green],
+                                colors: [Colors.pinkAccent,Colors.pink],
                               ),
                             ),
                             child: Column(
@@ -146,11 +146,11 @@ class _pri2cState extends State<pri2c> {
 
                           margin: EdgeInsets.only(left:20,top: 10),
                           height: 200,
-                          width: 170,
+                          width: 140,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(24),
                             gradient: LinearGradient(
-                              colors: [Colors.lightGreen,Colors.green],
+                              colors: [Colors.pinkAccent,Colors.pink],
                             ),
                           ),
                           child: Column(
@@ -172,7 +172,7 @@ class _pri2cState extends State<pri2c> {
                     Container(
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(15),
-                        color: Colors.green,
+                        color: Colors.pinkAccent,
                       ),
                       child: Text(" Les leçons ",
                         style: TextStyle(
@@ -212,7 +212,7 @@ class _pri2cState extends State<pri2c> {
                                             decoration: BoxDecoration(
                                               borderRadius: BorderRadius.circular(35),
                                               gradient: LinearGradient(
-                                                colors: [Colors.lightGreen,Colors.green],
+                                                colors: [Colors.pinkAccent,Colors.pink],
                                               ),
                                             ),
                                             child: Center(
@@ -266,11 +266,11 @@ class _pri2cState extends State<pri2c> {
                           child: Container(
                             margin: EdgeInsets.only(left: 20,right:5,top: 10 ),
                             height: 200,
-                            width: 170,
+                            width: 140,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(24),
                               gradient: LinearGradient(
-                                colors: [Colors.lightGreen,Colors.green],
+                                colors: [Colors.pinkAccent,Colors.pink],
                               ),
                             ),
                             child: Column(
@@ -291,11 +291,11 @@ class _pri2cState extends State<pri2c> {
 
                           margin: EdgeInsets.only(left:20,top: 10),
                           height: 200,
-                          width: 170,
+                          width: 140,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(24),
                             gradient: LinearGradient(
-                              colors: [Colors.lightGreen,Colors.green],
+                              colors: [Colors.pinkAccent,Colors.pink],
                             ),
                           ),
                           child: Column(
@@ -317,7 +317,7 @@ class _pri2cState extends State<pri2c> {
                     Container(
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(15),
-                        color: Colors.green,
+                        color: Colors.pinkAccent,
                       ),
                       child: Text(" Les leçons ",
                         style: TextStyle(
@@ -357,7 +357,7 @@ class _pri2cState extends State<pri2c> {
                                             decoration: BoxDecoration(
                                               borderRadius: BorderRadius.circular(35),
                                               gradient: LinearGradient(
-                                                colors: [Colors.lightGreen,Colors.green],
+                                                colors: [Colors.pinkAccent,Colors.pink],
                                               ),
                                             ),
                                             child: Center(
@@ -413,11 +413,11 @@ class _pri2cState extends State<pri2c> {
                           child: Container(
                             margin: EdgeInsets.only(left: 20,right:5,top: 10 ),
                             height: 200,
-                            width: 170,
+                            width: 140,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(24),
                               gradient: LinearGradient(
-                                colors: [Colors.lightGreen,Colors.green],
+                                colors: [Colors.pinkAccent,Colors.pink],
                               ),
                             ),
                             child: Column(
@@ -438,11 +438,11 @@ class _pri2cState extends State<pri2c> {
 
                           margin: EdgeInsets.only(left:20,top: 10),
                           height: 200,
-                          width: 170,
+                          width: 140,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(24),
                             gradient: LinearGradient(
-                              colors: [Colors.lightGreen,Colors.green],
+                              colors: [Colors.pinkAccent,Colors.pink],
                             ),
                           ),
                           child: Column(
@@ -464,7 +464,7 @@ class _pri2cState extends State<pri2c> {
                     Container(
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(15),
-                        color: Colors.green,
+                        color: Colors.pinkAccent,
                       ),
                       child: Text(" Les leçons ",
                         style: TextStyle(
@@ -504,7 +504,7 @@ class _pri2cState extends State<pri2c> {
                                             decoration: BoxDecoration(
                                               borderRadius: BorderRadius.circular(35),
                                               gradient: LinearGradient(
-                                                colors: [Colors.lightGreen,Colors.green],
+                                                colors: [Colors.pinkAccent,Colors.pink],
                                               ),
                                             ),
                                             child: Center(
@@ -560,11 +560,11 @@ class _pri2cState extends State<pri2c> {
                           child: Container(
                             margin: EdgeInsets.only(left: 20,right:5,top: 10 ),
                             height: 200,
-                            width: 170,
+                            width: 140,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(24),
                               gradient: LinearGradient(
-                                colors: [Colors.lightGreen,Colors.green],
+                                colors: [Colors.pinkAccent,Colors.pink],
                               ),
                             ),
                             child: Column(
@@ -585,11 +585,11 @@ class _pri2cState extends State<pri2c> {
 
                           margin: EdgeInsets.only(left:20,top: 10),
                           height: 200,
-                          width: 170,
+                          width: 140,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(24),
                             gradient: LinearGradient(
-                              colors: [Colors.lightGreen,Colors.green],
+                              colors: [Colors.pinkAccent,Colors.pink],
                             ),
                           ),
                           child: Column(
@@ -611,7 +611,7 @@ class _pri2cState extends State<pri2c> {
                     Container(
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(15),
-                        color: Colors.green,
+                        color: Colors.pinkAccent,
                       ),
                       child: Text(" Les leçons ",
                         style: TextStyle(
@@ -651,7 +651,7 @@ class _pri2cState extends State<pri2c> {
                                             decoration: BoxDecoration(
                                               borderRadius: BorderRadius.circular(35),
                                               gradient: LinearGradient(
-                                                colors: [Colors.lightGreen,Colors.green],
+                                                colors: [Colors.pinkAccent,Colors.pink],
                                               ),
                                             ),
                                             child: Center(
@@ -707,11 +707,11 @@ class _pri2cState extends State<pri2c> {
                           child: Container(
                             margin: EdgeInsets.only(left: 20,right:5,top: 10 ),
                             height: 200,
-                            width: 170,
+                            width: 140,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(24),
                               gradient: LinearGradient(
-                                colors: [Colors.lightGreen,Colors.green],
+                                colors: [Colors.pinkAccent,Colors.pink],
                               ),
                             ),
                             child: Column(
@@ -732,11 +732,11 @@ class _pri2cState extends State<pri2c> {
 
                           margin: EdgeInsets.only(left:20,top: 10),
                           height: 200,
-                          width: 170,
+                          width: 140,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(24),
                             gradient: LinearGradient(
-                              colors: [Colors.lightGreen,Colors.green],
+                              colors: [Colors.pinkAccent,Colors.pink],
                             ),
                           ),
                           child: Column(
@@ -758,7 +758,7 @@ class _pri2cState extends State<pri2c> {
                     Container(
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(15),
-                        color: Colors.green,
+                        color: Colors.pinkAccent,
                       ),
                       child: Text(" Les leçons ",
                         style: TextStyle(
@@ -798,7 +798,7 @@ class _pri2cState extends State<pri2c> {
                                             decoration: BoxDecoration(
                                               borderRadius: BorderRadius.circular(35),
                                               gradient: LinearGradient(
-                                                colors: [Colors.lightGreen,Colors.green],
+                                                colors: [Colors.pinkAccent,Colors.pink],
                                               ),
                                             ),
                                             child: Center(
@@ -854,11 +854,11 @@ class _pri2cState extends State<pri2c> {
                           child: Container(
                             margin: EdgeInsets.only(left: 20,right:5,top: 10 ),
                             height: 200,
-                            width: 170,
+                            width: 140,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(24),
                               gradient: LinearGradient(
-                                colors: [Colors.lightGreen,Colors.green],
+                                colors: [Colors.pinkAccent,Colors.pink],
                               ),
                             ),
                             child: Column(
@@ -879,11 +879,11 @@ class _pri2cState extends State<pri2c> {
 
                           margin: EdgeInsets.only(left:20,top: 10),
                           height: 200,
-                          width: 170,
+                          width: 140,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(24),
                             gradient: LinearGradient(
-                              colors: [Colors.lightGreen,Colors.green],
+                              colors: [Colors.pinkAccent,Colors.pink],
                             ),
                           ),
                           child: Column(
@@ -905,7 +905,7 @@ class _pri2cState extends State<pri2c> {
                     Container(
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(15),
-                        color: Colors.green,
+                        color: Colors.pinkAccent,
                       ),
                       child: Text(" Les leçons ",
                         style: TextStyle(
@@ -945,7 +945,7 @@ class _pri2cState extends State<pri2c> {
                                             decoration: BoxDecoration(
                                               borderRadius: BorderRadius.circular(35),
                                               gradient: LinearGradient(
-                                                colors: [Colors.lightGreen,Colors.green],
+                                                colors: [Colors.pinkAccent,Colors.pink],
                                               ),
                                             ),
                                             child: Center(
