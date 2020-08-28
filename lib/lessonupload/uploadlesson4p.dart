@@ -139,7 +139,7 @@ class _lesson4mState extends State<lesson4m> {
                           size: 30,
                           color: Colors.black,),
                         SizedBox(width: 10,),
-                        Text('Sauvgarder le Document',
+                        Text('Sauvgarder le Doc',
                           style: TextStyle(fontSize: 25,
                               color: Colors.black),
 
@@ -288,7 +288,7 @@ class _lesson4acState extends State<lesson4ac> {
                           size: 30,
                           color: Colors.black,),
                         SizedBox(width: 10,),
-                        Text('Sauvgarder le Document',
+                        Text('Sauvgarder le Doc',
                           style: TextStyle(fontSize: 25,
                               color: Colors.black),
 
@@ -455,7 +455,7 @@ class _lesson4arState extends State<lesson4ar> {
                           size: 30,
                           color: Colors.black,),
                         SizedBox(width: 10,),
-                        Text('Sauvgarder le Document',
+                        Text('Sauvgarder le Doc',
                           style: TextStyle(fontSize: 25,
                               color: Colors.black),
 
@@ -771,7 +771,7 @@ class _lesson4eaState extends State<lesson4ea> {
                           size: 30,
                           color: Colors.black,),
                         SizedBox(width: 10,),
-                        Text('Sauvgarder le Document',
+                        Text('Sauvgarder le Doc',
                           style: TextStyle(fontSize: 25,
                               color: Colors.black),
 
@@ -938,7 +938,7 @@ class _lesson4frState extends State<lesson4fr> {
                           size: 30,
                           color: Colors.black,),
                         SizedBox(width: 10,),
-                        Text('Sauvgarder le Document',
+                        Text('Sauvgarder le Doc',
                           style: TextStyle(fontSize: 25,
                               color: Colors.black),
 

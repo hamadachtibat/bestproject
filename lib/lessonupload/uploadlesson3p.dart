@@ -139,7 +139,7 @@ class _lesson3mState extends State<lesson3m> {
                           size: 30,
                           color: Colors.black,),
                         SizedBox(width: 10,),
-                        Text('Sauvgarder le Document',
+                        Text('Sauvgarder le Doc',
                           style: TextStyle(fontSize: 25,
                               color: Colors.black),
 
@@ -288,7 +288,7 @@ class _lesson3acState extends State<lesson3ac> {
                           size: 30,
                           color: Colors.black,),
                         SizedBox(width: 10,),
-                        Text('Sauvgarder le Document',
+                        Text('Sauvgarder le Doc',
                           style: TextStyle(fontSize: 25,
                               color: Colors.black),
 
@@ -455,7 +455,7 @@ class _lesson3arState extends State<lesson3ar> {
                           size: 30,
                           color: Colors.black,),
                         SizedBox(width: 10,),
-                        Text('Sauvgarder le Document',
+                        Text('Sauvgarder le Doc',
                           style: TextStyle(fontSize: 25,
                               color: Colors.black),
 
@@ -604,7 +604,7 @@ class _lesson3eiState extends State<lesson3ei> {
                           size: 30,
                           color: Colors.black,),
                         SizedBox(width: 10,),
-                        Text('Sauvgarder le Document',
+                        Text('Sauvgarder le Doc',
                           style: TextStyle(fontSize: 25,
                               color: Colors.black),
 
@@ -771,7 +771,7 @@ class _lesson3eaState extends State<lesson3ea> {
                           size: 30,
                           color: Colors.black,),
                         SizedBox(width: 10,),
-                        Text('Sauvgarder le Document',
+                        Text('Sauvgarder le Doc',
                           style: TextStyle(fontSize: 25,
                               color: Colors.black),
 
@@ -938,7 +938,7 @@ class _lesson3frState extends State<lesson3fr> {
                           size: 30,
                           color: Colors.black,),
                         SizedBox(width: 10,),
-                        Text('Sauvgarder le Document',
+                        Text('Sauvgarder le Doc',
                           style: TextStyle(fontSize: 25,
                               color: Colors.black),
 

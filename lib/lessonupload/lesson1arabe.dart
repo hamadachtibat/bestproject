@@ -138,7 +138,7 @@ class _lesson1arabeState extends State<lesson1arabe> {
                           size: 30,
                           color: Colors.black,),
                         SizedBox(width: 10,),
-                        Text('Sauvgarder le Document',
+                        Text('Sauvgarder le Doc',
                           style: TextStyle(fontSize: 25,
                               color: Colors.black),
 
@@ -287,7 +287,7 @@ class _lesson1eduisState extends State<lesson1eduis> {
                           size: 30,
                           color: Colors.black,),
                         SizedBox(width: 10,),
-                        Text('Sauvgarder le Document',
+                        Text('Sauvgarder le Doc',
                           style: TextStyle(fontSize: 25,
                               color: Colors.black),
 
@@ -436,7 +436,7 @@ class _lesson1eduarState extends State<lesson1eduar> {
                           size: 30,
                           color: Colors.black,),
                         SizedBox(width: 10,),
-                        Text('Sauvgarder le Document',
+                        Text('Sauvgarder le Doc',
                           style: TextStyle(fontSize: 25,
                               color: Colors.black),
 
@@ -585,7 +585,7 @@ class _lesson1frState extends State<lesson1fr> {
                           size: 30,
                           color: Colors.black,),
                         SizedBox(width: 10,),
-                        Text('Sauvgarder le Document',
+                        Text('Sauvgarder le Doc',
                           style: TextStyle(fontSize: 25,
                               color: Colors.black),
 

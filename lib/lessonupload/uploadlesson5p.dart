@@ -139,7 +139,7 @@ class _lesson5mState extends State<lesson5m> {
                           size: 30,
                           color: Colors.black,),
                         SizedBox(width: 10,),
-                        Text('Sauvgarder le Document',
+                        Text('Sauvgarder le Doc',
                           style: TextStyle(fontSize: 25,
                               color: Colors.black),
 
@@ -288,7 +288,7 @@ class _lesson5acState extends State<lesson5ac> {
                           size: 30,
                           color: Colors.black,),
                         SizedBox(width: 10,),
-                        Text('Sauvgarder le Document',
+                        Text('Sauvgarder le Doc',
                           style: TextStyle(fontSize: 25,
                               color: Colors.black),
 
@@ -455,7 +455,7 @@ class _lesson5arState extends State<lesson5ar> {
                           size: 30,
                           color: Colors.black,),
                         SizedBox(width: 10,),
-                        Text('Sauvgarder le Document',
+                        Text('Sauvgarder le Doc',
                           style: TextStyle(fontSize: 25,
                               color: Colors.black),
 
@@ -604,7 +604,7 @@ class _lesson5eiState extends State<lesson5ei> {
                           size: 30,
                           color: Colors.black,),
                         SizedBox(width: 10,),
-                        Text('Sauvgarder le Document',
+                        Text('Sauvgarder le Doc',
                           style: TextStyle(fontSize: 25,
                               color: Colors.black),
 
@@ -938,8 +938,8 @@ class _lesson5frState extends State<lesson5fr> {
                           size: 30,
                           color: Colors.black,),
                         SizedBox(width: 10,),
-                        Text('Sauvgarder le Document',
-                          style: TextStyle(fontSize: 25,
+                        Text('Sauvgarder le Doc',
+                              style: TextStyle(fontSize: 25,
                               color: Colors.black),
 
                         )

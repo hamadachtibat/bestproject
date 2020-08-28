@@ -12,7 +12,7 @@ import 'package:random_string/random_string.dart';
 
  class _uploadlessonState extends State<uploadlesson> {
 
-   Crudmethods crudmethods=new Crudmethods();
+   Crudmethods crudmethods = new Crudmethods();
 
 
    bool isloading=false;
@@ -81,7 +81,7 @@ import 'package:random_string/random_string.dart';
                          Icon(Icons.file_upload,
                          size: 30,),
                          SizedBox(width: 20,),
-                         Text("Upload Le Document",
+                         Text("Upload Le Doc",
                          style: TextStyle(fontSize: 25),)
                        ],
                      ),
@@ -138,7 +138,7 @@ import 'package:random_string/random_string.dart';
                         size: 30,
                          color: Colors.black,),
                          SizedBox(width: 10,),
-                         Text('Sauvgarder le Document',
+                         Text('Sauvgarder le Doc',
                            style: TextStyle(fontSize: 25,
                            color: Colors.black),
 
