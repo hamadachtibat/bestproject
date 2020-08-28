@@ -19,7 +19,7 @@ class _lesson5mState extends State<lesson5m> {
   bool isloading=false;
   File filepdf;
   Future getPDF()async{
-    filepdf =await FilePicker.getFile(type: FileType.custom);
+    filepdf =await FilePicker.getFile(type: FileType.any);
   }
   uploadpdf()async{
     if (filepdf!=null) {
@@ -168,7 +168,7 @@ class _lesson5acState extends State<lesson5ac> {
   bool isloading=false;
   File filepdf;
   Future getPDF()async{
-    filepdf =await FilePicker.getFile(type: FileType.custom);
+    filepdf =await FilePicker.getFile(type: FileType.any);
   }
   uploadpdf()async{
     if (filepdf!=null) {
@@ -318,7 +318,7 @@ class _lesson5arState extends State<lesson5ar> {
   File filepdf;
 
   Future getPDF() async {
-    filepdf = await FilePicker.getFile(type: FileType.custom);
+    filepdf = await FilePicker.getFile(type: FileType.any);
   }
 
   uploadpdf() async {
@@ -484,7 +484,7 @@ class _lesson5eiState extends State<lesson5ei> {
   bool isloading=false;
   File filepdf;
   Future getPDF()async{
-    filepdf =await FilePicker.getFile(type: FileType.custom);
+    filepdf =await FilePicker.getFile(type: FileType.any);
   }
   uploadpdf()async{
     if (filepdf!=null) {
@@ -634,7 +634,7 @@ class _lesson5eaState extends State<lesson5ea> {
   File filepdf;
 
   Future getPDF() async {
-    filepdf = await FilePicker.getFile(type: FileType.custom);
+    filepdf = await FilePicker.getFile(type: FileType.any);
   }
 
   uploadpdf() async {
@@ -801,7 +801,7 @@ class _lesson5frState extends State<lesson5fr> {
   File filepdf;
 
   Future getPDF() async {
-    filepdf = await FilePicker.getFile(type: FileType.custom);
+    filepdf = await FilePicker.getFile(type: FileType.any);
   }
 
   uploadpdf() async {

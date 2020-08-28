@@ -19,7 +19,7 @@ class _lesson1cmState extends State<lesson1cm> {
   bool isloading=false;
   File filepdf;
   Future getPDF()async{
-    filepdf =await FilePicker.getFile(type: FileType.custom);
+    filepdf =await FilePicker.getFile(type: FileType.any);
   }
   uploadpdf()async{
     if (filepdf!=null) {
@@ -168,7 +168,7 @@ class _lesson1cphyState extends State<lesson1cphy> {
   bool isloading=false;
   File filepdf;
   Future getPDF()async{
-    filepdf =await FilePicker.getFile(type: FileType.custom);
+    filepdf =await FilePicker.getFile(type: FileType.any);
   }
   uploadpdf()async{
     if (filepdf!=null) {
@@ -318,7 +318,7 @@ class _lesson1csvtState extends State<lesson1csvt> {
   File filepdf;
 
   Future getPDF() async {
-    filepdf = await FilePicker.getFile(type: FileType.custom);
+    filepdf = await FilePicker.getFile(type: FileType.any);
   }
 
   uploadpdf() async {
@@ -484,7 +484,7 @@ class _lesson1cfrState extends State<lesson1cfr> {
   bool isloading=false;
   File filepdf;
   Future getPDF()async{
-    filepdf =await FilePicker.getFile(type: FileType.custom);
+    filepdf =await FilePicker.getFile(type: FileType.any);
   }
   uploadpdf()async{
     if (filepdf!=null) {
@@ -634,7 +634,7 @@ class _lesson1carbState extends State<lesson1carb> {
   File filepdf;
 
   Future getPDF() async {
-    filepdf = await FilePicker.getFile(type: FileType.custom);
+    filepdf = await FilePicker.getFile(type: FileType.any);
   }
 
   uploadpdf() async {
@@ -801,7 +801,7 @@ class _lesson1ceiState extends State<lesson1cei> {
   File filepdf;
 
   Future getPDF() async {
-    filepdf = await FilePicker.getFile(type: FileType.custom);
+    filepdf = await FilePicker.getFile(type: FileType.any);
   }
 
   uploadpdf() async {
@@ -968,7 +968,7 @@ class _lesson1chgState extends State<lesson1chg> {
   File filepdf;
 
   Future getPDF() async {
-    filepdf = await FilePicker.getFile(type: FileType.custom);
+    filepdf = await FilePicker.getFile(type: FileType.any);
   }
 
   uploadpdf() async {
@@ -1135,7 +1135,7 @@ class _lesson1cengState extends State<lesson1ceng> {
   File filepdf;
 
   Future getPDF() async {
-    filepdf = await FilePicker.getFile(type: FileType.custom);
+    filepdf = await FilePicker.getFile(type: FileType.any);
   }
 
   uploadpdf() async {
