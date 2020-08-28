@@ -5,6 +5,7 @@ import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_alfadl2/services/crud.dart';
 import 'package:random_string/random_string.dart';
+
  class uploadlesson extends StatefulWidget {
    @override
    _uploadlessonState createState() => _uploadlessonState();
@@ -18,10 +19,10 @@ import 'package:random_string/random_string.dart';
    bool isloading=false;
    File filepdf;
   Future getPDF()async{
-      filepdf =await FilePicker.getFile(type: FileType.custom);
+     filepdf = await FilePicker.getFile(type: FileType.custom);
   }
  uploadpdf()async{
-    if (filepdf!=null) {
+    if (filepdf!= null) {
       setState(() {
         isloading=true;
       });
