@@ -12,32 +12,53 @@ class ContactPage extends StatelessWidget {
         centerTitle: true,
 
       ),
-      backgroundColor: Colors.black54,
+      backgroundColor: Colors.white24,
       body: SafeArea(
         child: Column(
           children: [
-            CircleAvatar(
-              radius: 40,
-              backgroundImage: AssetImage('assets/images/alfadl.png'),
+            SizedBox(height: 40,),
+            Center(
+              child: CircleAvatar(
+                backgroundColor: Colors.white,
+                radius: 80,
+                backgroundImage: AssetImage('assets/images/alfadl.png'),
+              ),
             ),
-            Text("G.S.ALFADL".toUpperCase()),
-            Text("NOVEAU CONCEPT D'EDUCATION".toUpperCase()),
+            SizedBox(height: 20,),
+            Text("G.S.ALFADL",
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 20,
+              ),
+            ),
+            SizedBox(height: 20,),
+            Text("NOVEAU CONCEPT D'EDUCATION",
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 20,
+              ),),
+            SizedBox(height: 20,),
+            
             Card(
               child: ListTile(
                 leading: Icon(Icons.phone,
                 color: Colors.pink,
                 ),
-                title: Text("+212 5393-62575"),
+                title: Text("+212 5393-62575 primaire",
+
+                ),
 
               ),
 
             ),
+            SizedBox(height: 20,),
             Card(
               child: ListTile(
                 leading: Icon(Icons.email,
                   color: Colors.pink,
                 ),
-                title: Text("groupescolairealfadl@gmail.com"),
+                title: Text("groupescolairealfadl@gmail.com",
+                ),
 
               ),
 
