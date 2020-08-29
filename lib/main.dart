@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
       create: (context)=>currentuser(),
       child: MaterialApp(
         theme: ThemeData(
-            fontFamily: "Nunito"
+            fontFamily: "Nunito",
+          primaryColor: Colors.purple,
         ),
         debugShowCheckedModeBanner: false,
         home: Scaffold(

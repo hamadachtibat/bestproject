@@ -9,6 +9,7 @@ import 'package:flutter_alfadl2/services/auth.dart';
 import 'package:provider/provider.dart';
 
 import 'alfadlphotos.dart';
+import 'contactus.dart';
 
 class homepage extends StatefulWidget {
   @override
@@ -273,7 +274,6 @@ class _homepageState extends State<homepage> {
           backgroundColor: Colors.purple,
           items: <Widget>[
             IconButton(
-
               icon: Icon(
                   Icons.home),
               onPressed: (){
@@ -283,13 +283,21 @@ class _homepageState extends State<homepage> {
               },
             ),
           IconButton(
-            icon: Icon(Icons.camera_alt),
+            icon: Icon(Icons.alternate_email),
             onPressed: (){
               Navigator.push(context, new MaterialPageRoute(
-                builder: (context) => fadlphoto(),
+                builder: (context) => ContactPage(),
               ));
             },
           ),
+            IconButton(
+              icon: Icon(Icons.camera_alt),
+              onPressed: (){
+                Navigator.push(context, new MaterialPageRoute(
+                  builder: (context) => fadlphoto(),
+                ));
+              },
+            ),
            IconButton(
              icon: Icon( Icons.close),
              onPressed: () async {
