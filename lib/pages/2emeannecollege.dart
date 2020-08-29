@@ -45,7 +45,7 @@ class _secondannecollegeState extends State<secondannecollege> {
   }
   Future getlesson2chg()async{
     var firestore =Firestore.instance;
-    QuerySnapshot qn= await firestore.collection("lessons1chg").getDocuments();
+    QuerySnapshot qn= await firestore.collection("lessons2chg").getDocuments();
     return qn.documents;
   }
   Future getlesson2ceng()async{
