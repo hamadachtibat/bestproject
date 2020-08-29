@@ -6,12 +6,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_alfadl2/services/crud.dart';
 import 'package:random_string/random_string.dart';
 
-class lesson4cm extends StatefulWidget {
+class lesson5cm extends StatefulWidget {
   @override
-  _lesson4cmState createState() => _lesson4cmState();
+  _lesson5cmState createState() => _lesson5cmState();
 }
 
-class _lesson4cmState extends State<lesson4cm> {
+class _lesson5cmState extends State<lesson5cm> {
 
   Crudmethods crudmethods=new Crudmethods();
 
@@ -36,7 +36,7 @@ class _lesson4cmState extends State<lesson4cm> {
         "titre": _titrecontroller.text,
 
       };
-      Crudmethods().Aaddata4cma(lessondata).then((result){
+      Crudmethods().Aaddata5cma(lessondata).then((result){
         Navigator.pop(context);
       });
     }  else{print('error');}
@@ -155,12 +155,12 @@ class _lesson4cmState extends State<lesson4cm> {
       );
   }
 }
-class lesson4cphy extends StatefulWidget {
+class lesson5cphy extends StatefulWidget {
   @override
-  _lesson4cphyState createState() => _lesson4cphyState();
+  _lesson5cphyState createState() => _lesson5cphyState();
 }
 
-class _lesson4cphyState extends State<lesson4cphy> {
+class _lesson5cphyState extends State<lesson5cphy> {
 
   Crudmethods crudmethods=new Crudmethods();
 
@@ -185,7 +185,7 @@ class _lesson4cphyState extends State<lesson4cphy> {
         "titre": _titrecontroller.text,
 
       };
-      Crudmethods().Aaddata4cphy(lessondata).then((result){
+      Crudmethods().Aaddata5cphy(lessondata).then((result){
         Navigator.pop(context);
       });
     }  else{print('error');}
@@ -304,12 +304,12 @@ class _lesson4cphyState extends State<lesson4cphy> {
       );
   }
 }
-class lesson4csvt extends StatefulWidget {
+class lesson5csvt extends StatefulWidget {
   @override
-  _lesson4csvtState createState() => _lesson4csvtState();
+  _lesson5csvtState createState() => _lesson5csvtState();
 }
 
-class _lesson4csvtState extends State<lesson4csvt> {
+class _lesson5csvtState extends State<lesson5csvt> {
 
   Crudmethods crudmethods = new Crudmethods();
 
@@ -337,7 +337,7 @@ class _lesson4csvtState extends State<lesson4csvt> {
         "titre": _titrecontroller.text,
 
       };
-      Crudmethods().Aaddata4csvt(lessondata).then((result) {
+      Crudmethods().Aaddata5csvt(lessondata).then((result) {
         Navigator.pop(context);
       });
     } else {
@@ -471,12 +471,12 @@ class _lesson4csvtState extends State<lesson4csvt> {
       );
   }
 }
-class lesson4cfr extends StatefulWidget {
+class lesson5cfr extends StatefulWidget {
   @override
-  _lesson4cfrState createState() => _lesson4cfrState();
+  _lesson5cfrState createState() => _lesson5cfrState();
 }
 
-class _lesson4cfrState extends State<lesson4cfr> {
+class _lesson5cfrState extends State<lesson5cfr> {
 
   Crudmethods crudmethods=new Crudmethods();
 
@@ -501,7 +501,7 @@ class _lesson4cfrState extends State<lesson4cfr> {
         "titre": _titrecontroller.text,
 
       };
-      Crudmethods().Aaddata4cfr(lessondata).then((result){
+      Crudmethods().Aaddata5cfr(lessondata).then((result){
         Navigator.pop(context);
       });
     }  else{print('error');}
@@ -620,12 +620,12 @@ class _lesson4cfrState extends State<lesson4cfr> {
       );
   }
 }
-class lesson4carb extends StatefulWidget {
+class lesson5carb extends StatefulWidget {
   @override
-  _lesson4carbState createState() => _lesson4carbState();
+  _lesson5carbState createState() => _lesson5carbState();
 }
 
-class _lesson4carbState extends State<lesson4carb> {
+class _lesson5carbState extends State<lesson5carb> {
 
   Crudmethods crudmethods = new Crudmethods();
 
@@ -653,7 +653,7 @@ class _lesson4carbState extends State<lesson4carb> {
         "titre": _titrecontroller.text,
 
       };
-      Crudmethods().Aaddata4carab(lessondata).then((result) {
+      Crudmethods().Aaddata5carab(lessondata).then((result) {
         Navigator.pop(context);
       });
     } else {
@@ -787,12 +787,12 @@ class _lesson4carbState extends State<lesson4carb> {
       );
   }
 }
-class lesson4cei extends StatefulWidget {
+class lesson5cei extends StatefulWidget {
   @override
-  _lesson4ceiState createState() => _lesson4ceiState();
+  _lesson5ceiState createState() => _lesson5ceiState();
 }
 
-class _lesson4ceiState extends State<lesson4cei> {
+class _lesson5ceiState extends State<lesson5cei> {
 
   Crudmethods crudmethods = new Crudmethods();
 
@@ -820,7 +820,7 @@ class _lesson4ceiState extends State<lesson4cei> {
         "titre": _titrecontroller.text,
 
       };
-      Crudmethods().Aaddata4cei(lessondata).then((result) {
+      Crudmethods().Aaddata5cei(lessondata).then((result) {
         Navigator.pop(context);
       });
     } else {
@@ -954,12 +954,12 @@ class _lesson4ceiState extends State<lesson4cei> {
       );
   }
 }
-class lesson4chg extends StatefulWidget {
+class lesson5chg extends StatefulWidget {
   @override
-  _lesson4chgState createState() => _lesson4chgState();
+  _lesson5chgState createState() => _lesson5chgState();
 }
 
-class _lesson4chgState extends State<lesson4chg> {
+class _lesson5chgState extends State<lesson5chg> {
 
   Crudmethods crudmethods = new Crudmethods();
 
@@ -987,7 +987,7 @@ class _lesson4chgState extends State<lesson4chg> {
         "titre": _titrecontroller.text,
 
       };
-      Crudmethods().Aaddata4chg(lessondata).then((result) {
+      Crudmethods().Aaddata5chg(lessondata).then((result) {
         Navigator.pop(context);
       });
     } else {
@@ -1121,12 +1121,12 @@ class _lesson4chgState extends State<lesson4chg> {
       );
   }
 }
-class lesson4ceng extends StatefulWidget {
+class lesson5ceng extends StatefulWidget {
   @override
-  _lesson4cengState createState() => _lesson4cengState();
+  _lesson5cengState createState() => _lesson5cengState();
 }
 
-class _lesson4cengState extends State<lesson4ceng> {
+class _lesson5cengState extends State<lesson5ceng> {
 
   Crudmethods crudmethods = new Crudmethods();
 
@@ -1154,7 +1154,7 @@ class _lesson4cengState extends State<lesson4ceng> {
         "titre": _titrecontroller.text,
 
       };
-      Crudmethods().Aaddata4ceng(lessondata).then((result) {
+      Crudmethods().Aaddata5ceng(lessondata).then((result) {
         Navigator.pop(context);
       });
     } else {
@@ -1288,12 +1288,12 @@ class _lesson4cengState extends State<lesson4ceng> {
       );
   }
 }
-class lesson4cphilo extends StatefulWidget {
+class lesson5cphilo extends StatefulWidget {
   @override
-  _lesson4cphiloState createState() => _lesson4cphiloState();
+  _lesson5cphiloState createState() => _lesson5cphiloState();
 }
 
-class _lesson4cphiloState extends State<lesson4cphilo> {
+class _lesson5cphiloState extends State<lesson5cphilo> {
 
   Crudmethods crudmethods = new Crudmethods();
 
@@ -1321,7 +1321,7 @@ class _lesson4cphiloState extends State<lesson4cphilo> {
         "titre": _titrecontroller.text,
 
       };
-      Crudmethods().Aaddata4cphilo(lessondata).then((result) {
+      Crudmethods().Aaddata5cphilo(lessondata).then((result) {
         Navigator.pop(context);
       });
     } else {

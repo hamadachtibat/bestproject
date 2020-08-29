@@ -445,5 +445,67 @@ import 'package:cloud_firestore/cloud_firestore.dart';
        print('error');
      });
    }
+   Future<void> Aaddata4cphilo(lessondata) async {
+     Firestore.instance.collection("lessons4cphilo").add(lessondata).catchError((
+         e) {
+       print('error');
+     });
+   }
+   Future<void> Aaddata5cma(lessondata) async {
+     Firestore.instance.collection("lessons5cma").add(lessondata).catchError((
+         e) {
+       print('error');
+     });
+   }
 
+   Future<void> Aaddata5cphy(lessondata) async {
+     Firestore.instance.collection("lessons5cphy").add(lessondata).catchError((
+         e) {
+       print('error');
+     });
+   }
+
+   Future<void> Aaddata5csvt(lessondata) async {
+     Firestore.instance.collection("lessons5csvt").add(lessondata).catchError((
+         e) {
+       print('error');
+     });
+   }
+
+   Future<void> Aaddata5cfr(lessondata) async {
+     Firestore.instance.collection("lessons5cfr").add(lessondata).catchError((
+         e) {
+       print('error');
+     });
+   }
+   Future<void> Aaddata5carab(lessondata) async {
+     Firestore.instance.collection("lessons5carab").add(lessondata).catchError((
+         e) {
+       print('error');
+     });
+   }
+   Future<void> Aaddata5cei(lessondata) async {
+     Firestore.instance.collection("lessons5cei").add(lessondata).catchError((
+         e) {
+       print('error');
+     });
+   }
+   Future<void> Aaddata5chg(lessondata) async {
+     Firestore.instance.collection("lessons5chg").add(lessondata).catchError((
+         e) {
+       print('error');
+     });
+   }
+   Future<void> Aaddata5ceng(lessondata) async {
+     Firestore.instance.collection("lessons5ceng").add(lessondata).catchError((
+         e) {
+       print('error');
+     });
+   }
+   Future<void> Aaddata5cphilo(lessondata) async {
+     Firestore.instance.collection("lessons5cphilo").add(lessondata).catchError((
+         e) {
+       print('error');
+     });
+   }
  }

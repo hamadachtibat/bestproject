@@ -56,6 +56,11 @@ class _troncState extends State<tronc> {
     QuerySnapshot qn= await firestore.collection("lessons4ceng").getDocuments();
     return qn.documents;
   }
+  Future getlesson4cphilo()async{
+    var firestore =Firestore.instance;
+    QuerySnapshot qn= await firestore.collection("lessons4cphilo").getDocuments();
+    return qn.documents;
+  }
   bool isteacher=false;
 
   @override
@@ -68,7 +73,7 @@ class _troncState extends State<tronc> {
 
     }
     return DefaultTabController(
-      length: 8,
+      length: 9,
       child: Scaffold(
         backgroundColor: Colors.purple,
         appBar: AppBar(
@@ -119,6 +124,11 @@ class _troncState extends State<tronc> {
                     fontSize: 25
                 ),
               ),
+                Text("philosophie",
+                style: TextStyle(
+                fontSize: 25
+                ),
+                ),
             ],
           ),
         ),
@@ -1297,7 +1307,153 @@ class _troncState extends State<tronc> {
               ),
 
             ),
+            SingleChildScrollView(
+              child: Column(
+                children: <Widget>[
+                  SizedBox(height: 20,),
+                  Row(
+                    children: <Widget>[
+                      GestureDetector(
+                        onTap:  (){
+                          Navigator.push(context, new MaterialPageRoute(
+                            builder: (context) => exo1college(),
+                          ));
+                        },
 
+                        child: Container(
+                          margin: EdgeInsets.only(left: 20,right:5,top: 10 ),
+                          height: 200,
+                          width: 140,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(24),
+                            gradient: LinearGradient(
+                              colors: [Colors.lightGreen,Colors.green],
+                            ),
+                          ),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: <Widget>[
+                              Text("Exercices",
+                                style: TextStyle(
+                                    fontSize: 25
+                                ),),
+                              Image.asset("assets/images/english-book.png",
+                                width: 100, ),
+                            ],
+                          ),
+                        ),
+                      ),
+                      Container(
+
+                        margin: EdgeInsets.only(left:20,top: 10),
+                        height: 200,
+                        width: 140,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(24),
+                          gradient: LinearGradient(
+                            colors: [Colors.lightGreen,Colors.green],
+                          ),
+                        ),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: <Widget>[
+                            Text("Les Videos",
+                              style: TextStyle(
+                                  fontSize: 25
+                              ),),
+                            Image.asset("assets/images/exam.png",
+                              width: 100, ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                  SizedBox(height: 20,),
+                  Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15),
+                      color: Colors.green,
+                    ),
+                    child: Text(" Les leçons ",
+                      style: TextStyle(
+                          fontSize: 40
+                      ),
+                    ),
+                  ),
+                  SizedBox(height: 30,),
+
+                  Container(
+                    child: Column(
+                      children: <Widget>[
+                        FutureBuilder(
+                            future: getlesson4cphilo(),
+                            builder: (context,snapshot) {
+                              if (snapshot.connectionState == ConnectionState.waiting) {
+                                return Center(child: Text('loading'),);
+                              } else {
+                                return ListView.builder(
+                                    shrinkWrap: true,
+                                    itemCount: snapshot.data.length,
+                                    itemBuilder: (context, index) {
+                                      return GestureDetector(
+                                        onTap: (){
+                                          String passdata=snapshot.data[index].data['pdfurl'];
+                                          Navigator.push(context, MaterialPageRoute(
+                                              builder: (context)=> Viewpdf(),
+                                              settings: RouteSettings(
+                                                arguments: passdata,
+                                              )
+                                          ));
+                                        },
+                                        child: Container(
+                                          margin: EdgeInsets.symmetric(horizontal: 7,vertical: 10),
+                                          padding: EdgeInsets.symmetric(horizontal: 10,vertical: 10),
+                                          height: 100,
+                                          decoration: BoxDecoration(
+                                            borderRadius: BorderRadius.circular(35),
+                                            gradient: LinearGradient(
+                                              colors: [Colors.lightGreen,Colors.green],
+                                            ),
+                                          ),
+                                          child: Center(
+                                            child: Text(snapshot.data[index].data['titre'],
+                                              style: TextStyle(
+                                                  fontSize: 23
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      );
+                                    });
+
+                              }
+                            }),
+
+                      ],
+                    ),
+                  ),
+                  SizedBox(height: 30,),
+
+
+                  Visibility(
+                    visible: isteacher,
+                    child: FloatingActionButton(child: Icon(Icons.add,
+                      color: Colors.purple,
+                      size: 30,),
+                        backgroundColor: Colors.white,
+                        onPressed: (){
+                          Navigator.push(context, new MaterialPageRoute(
+                            builder: (context) => lesson4cphilo(),
+                          ));
+                        }
+                    ),
+                  ),
+                ],
+              ),
+
+            ),
 
           ],
         ),
