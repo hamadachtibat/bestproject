@@ -31,7 +31,8 @@ class ContactPage extends StatelessWidget {
                 fontSize: 20,
               ),
             ),
-            SizedBox(height: 20,),
+            SizedBox(height: 20,width: 200,),
+            Divider(color: Colors.pink,),
             Text("NOVEAU CONCEPT D'EDUCATION",
               style: TextStyle(
                 color: Colors.white,
@@ -40,6 +41,7 @@ class ContactPage extends StatelessWidget {
             SizedBox(height: 20,),
             
             Card(
+              margin: EdgeInsets.symmetric(horizontal: 8) ,
               child: ListTile(
                 leading: Icon(Icons.phone,
                 color: Colors.pink,
@@ -53,6 +55,7 @@ class ContactPage extends StatelessWidget {
             ),
             SizedBox(height: 20,),
             Card(
+              margin: EdgeInsets.symmetric(horizontal: 8) ,
               child: ListTile(
                 leading: Icon(Icons.email,
                   color: Colors.pink,

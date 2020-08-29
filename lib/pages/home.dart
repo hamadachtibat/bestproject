@@ -72,7 +72,7 @@ class _homepageState extends State<homepage> {
                          children: <Widget>[
                            Text("LES ANNONCES ",
                              style: TextStyle(
-                                 color: Colors.white,
+                                 color: Colors.black,
                                  fontFamily: "Nunito",
                                  fontSize: 20
                              ),
@@ -83,7 +83,7 @@ class _homepageState extends State<homepage> {
                                Icon(Icons.location_on,color: Colors.white,size: 20,),
                                Text(" ALFADL II ",
                                  style: TextStyle(
-                                   color: Colors.white,
+                                   color: Colors.black,
                                  ),
                                ),
                              ],
@@ -131,7 +131,7 @@ class _homepageState extends State<homepage> {
                       children: <Widget>[
                         Text("PRAIMAIRE",
                           style: TextStyle(
-                              color: Colors.white,
+                              color: Colors.black,
                               fontFamily: "Nunito",
                               fontSize: 20
                           ),
@@ -142,7 +142,7 @@ class _homepageState extends State<homepage> {
                             Icon(Icons.location_on,color: Colors.white,size: 20,),
                             Text(" ALFADL  ",
                               style: TextStyle(
-                                color: Colors.white,
+                                color: Colors.black,
                               ),
                             ),
                           ],
@@ -188,7 +188,7 @@ class _homepageState extends State<homepage> {
                       children: <Widget>[
                         Text("COLLEGE ",
                           style: TextStyle(
-                              color: Colors.white,
+                              color: Colors.black,
                               fontFamily: "Nunito",
                               fontSize: 20
                           ),
@@ -199,7 +199,7 @@ class _homepageState extends State<homepage> {
                             Icon(Icons.location_on,color: Colors.white,size: 20,),
                             Text("ALFADL III ",
                               style: TextStyle(
-                                color: Colors.white,
+                                color: Colors.black,
                               ),
 
                             ),
@@ -245,7 +245,7 @@ class _homepageState extends State<homepage> {
                       children: <Widget>[
                         Text("LYCEE",
                           style: TextStyle(
-                              color: Colors.white,
+                              color: Colors.black,
                               fontFamily: "Nunito",
                               fontSize: 20
                           ),
@@ -256,7 +256,7 @@ class _homepageState extends State<homepage> {
                             Icon(Icons.location_on,color: Colors.white,size: 20,),
                             Text(" ALFADL II ",
                               style: TextStyle(
-                                color: Colors.white,
+                                color: Colors.black,
                               ),
                             ),
                           ],
@@ -283,14 +283,6 @@ class _homepageState extends State<homepage> {
               },
             ),
           IconButton(
-            icon: Icon(Icons.alternate_email),
-            onPressed: (){
-              Navigator.push(context, new MaterialPageRoute(
-                builder: (context) => ContactPage(),
-              ));
-            },
-          ),
-            IconButton(
               icon: Icon(Icons.camera_alt),
               onPressed: (){
                 Navigator.push(context, new MaterialPageRoute(
@@ -298,6 +290,14 @@ class _homepageState extends State<homepage> {
                 ));
               },
             ),
+            IconButton(
+            icon: Icon(Icons.alternate_email),
+            onPressed: (){
+              Navigator.push(context, new MaterialPageRoute(
+                builder: (context) => ContactPage(),
+              ));
+            },
+          ),
            IconButton(
              icon: Icon( Icons.close),
              onPressed: () async {
