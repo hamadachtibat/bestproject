@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_alfadl2/lessonupload/uploadannonce.dart';
 import 'package:flutter_alfadl2/services/auth.dart';
 import 'package:provider/provider.dart';
+
 class Annonce extends StatefulWidget {
   @override
   _AnnonceState createState() => _AnnonceState();
@@ -48,7 +49,8 @@ class _AnnonceState extends State<Annonce> {
                     },
                     transitionType: ContainerTransitionType.fade,
                     transitionDuration: Duration(milliseconds: 1000),
-                  )),
+                  ),
+              ),
             ],
           ),
         ),

@@ -112,6 +112,7 @@ class _homepageState extends State<homepage> {
                 return primairelist();
 
               },
+              closedColor: Colors.purple,
               closedBuilder: (context,VoidCallback opencontainer){
                 return GestureDetector(
                   onTap:  opencontainer ,
