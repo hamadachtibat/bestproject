@@ -10,6 +10,7 @@ class ContactPage extends StatelessWidget {
         ),
         ),
         centerTitle: true,
+        elevation: 0,
 
       ),
       backgroundColor: Colors.white24,
@@ -32,7 +33,6 @@ class ContactPage extends StatelessWidget {
               ),
             ),
             SizedBox(height: 20,width: 200,),
-            Divider(color: Colors.pink,),
             Text("NOVEAU CONCEPT D'EDUCATION",
               style: TextStyle(
                 color: Colors.white,
@@ -46,12 +46,12 @@ class ContactPage extends StatelessWidget {
                 leading: Icon(Icons.phone,
                 color: Colors.pink,
                 ),
-                title: Text("+212 5393-62575 primaire",
+                title: Text("+212 5393-62575 collége",
 
                 ),
 
               ),
-
+             elevation: 2,
             ),
             SizedBox(height: 20,),
             Card(
