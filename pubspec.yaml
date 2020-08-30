@@ -39,6 +39,7 @@ dependencies:
   firebase_storage: ^3.1.6
   random_string: ^2.1.0
   animated_splash_screen: ^1.0.0+1
+  animations: ^1.1.2
   flutter_plugin_pdf_viewer:
 
 dev_dependencies:

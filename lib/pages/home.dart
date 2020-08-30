@@ -7,6 +7,7 @@ import 'package:flutter_alfadl2/pages/lycee.dart';
 import 'package:flutter_alfadl2/pages/primaire.dart';
 import 'package:flutter_alfadl2/services/auth.dart';
 import 'package:provider/provider.dart';
+import 'package:animations/animations.dart';
 
 import 'alfadlphotos.dart';
 import 'contactus.dart';
@@ -39,233 +40,258 @@ class _homepageState extends State<homepage> {
              Center(
               child: Stack(
                   children: <Widget>[
-                 GestureDetector(
-                   onTap:  (){
-                       Navigator.push(context, new MaterialPageRoute(
-                             builder: (context) => primairelist(),
-                          ));
-                       },
-                             child: Container(
-                   margin: EdgeInsets.all(8),
-                   height: 100,
-                   decoration: BoxDecoration(
-                       borderRadius: BorderRadius.circular(24),
-                       gradient: LinearGradient(
-                         colors: [Colors.white,Colors.red],
-                         begin: Alignment.topLeft,
-                         end: Alignment.bottomRight,
-                       ),
-                       boxShadow: [
-                         BoxShadow(
-                           color: Colors.redAccent,
-                           blurRadius: 12,
-                           offset: Offset(0,6),
-                         )
-                       ]
-                   ),
-                   child: Row(
-                     children: <Widget>[
-                       Image.asset("assets/images/alfadl.png"),
-                       SizedBox(width: 30,),
-                       Column(
-                         mainAxisAlignment: MainAxisAlignment.center,
-                         children: <Widget>[
-                           Text("LES ANNONCES ",
-                             style: TextStyle(
-                                 color: Colors.black,
-                                 fontFamily: "Nunito",
-                                 fontSize: 20
+                 OpenContainer(
+
+                   openBuilder: (context,_){
+                     return primairelist();
+                   },
+                   closedBuilder: (context, VoidCallback openContainer){
+                     return GestureDetector(
+                       onTap:  openContainer,
+                       child: Container(
+                         margin: EdgeInsets.all(8),
+                         height: 100,
+                         decoration: BoxDecoration(
+                             borderRadius: BorderRadius.circular(24),
+                             gradient: LinearGradient(
+                               colors: [Colors.white,Colors.red],
+                               begin: Alignment.topLeft,
+                               end: Alignment.bottomRight,
                              ),
-                           ),
-                           SizedBox(height:16),
-                           Row(
-                             children: <Widget>[
-                               Icon(Icons.location_on,color: Colors.white,size: 20,),
-                               Text(" ALFADL II ",
-                                 style: TextStyle(
-                                   color: Colors.black,
+                             boxShadow: [
+                               BoxShadow(
+                                 color: Colors.redAccent,
+                                 blurRadius: 12,
+                                 offset: Offset(0,6),
+                               )
+                             ]
+                         ),
+                         child: Row(
+                           children: <Widget>[
+                             Image.asset("assets/images/alfadl.png"),
+                             SizedBox(width: 30,),
+                             Column(
+                               mainAxisAlignment: MainAxisAlignment.center,
+                               children: <Widget>[
+                                 Text("LES ANNONCES ",
+                                   style: TextStyle(
+                                       color: Colors.black,
+                                       fontFamily: "Nunito",
+                                       fontSize: 20
+                                   ),
                                  ),
-                               ),
-                             ],
-                           )
-                         ],
+                                 SizedBox(height:16),
+                                 Row(
+                                   children: <Widget>[
+                                     Icon(Icons.location_on,color: Colors.white,size: 20,),
+                                     Text(" ALFADL II ",
+                                       style: TextStyle(
+                                         color: Colors.black,
+                                       ),
+                                     ),
+                                   ],
+                                 )
+                               ],
+                             ),
+                           ],
+                         ),
                        ),
-                     ],
-                   ),
-                 ),
+                     );
+                   },
+                   closedColor: Colors.purple,
+                   transitionType: ContainerTransitionType.fadeThrough,
+                   transitionDuration: Duration(milliseconds: 1000),
                  ),
             ],
             ),
             ),
             SizedBox(height:10 ),
-            GestureDetector(
-              onTap:  (){
-                Navigator.push(context, new MaterialPageRoute(
-                  builder: (context) => primairelist(),
-                ));
+            OpenContainer(
+              openBuilder: (context,_){
+                return primairelist();
+
               },
-              child: Container(
-                margin: EdgeInsets.all(8),
-                height: 100,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(24),
-                    gradient: LinearGradient(
-                      colors: [Colors.white,Colors.lightGreenAccent],
-                      begin: Alignment.topLeft,
-                      end: Alignment.bottomRight,
-                    ),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.teal ,
-                        blurRadius: 12,
-                        offset: Offset(0,6),
-                      )
-                    ]
-                ),
-                child: Row(
-                  children: <Widget>[
-                    Image.asset("assets/images/alfadl.png"),
-                    SizedBox(width: 30,),
-                    Column(
-                      mainAxisAlignment:MainAxisAlignment.center ,
-                      children: <Widget>[
-                        Text("PRAIMAIRE",
-                          style: TextStyle(
-                              color: Colors.black,
-                              fontFamily: "Nunito",
-                              fontSize: 20
-                          ),
+              closedBuilder: (context,VoidCallback opencontainer){
+                return GestureDetector(
+                  onTap:  opencontainer ,
+                  child: Container(
+                    margin: EdgeInsets.all(8),
+                    height: 100,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(24),
+                        gradient: LinearGradient(
+                          colors: [Colors.white,Colors.lightGreenAccent],
+                          begin: Alignment.topLeft,
+                          end: Alignment.bottomRight,
                         ),
-                        SizedBox(height:16),
-                        Row(
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.teal ,
+                            blurRadius: 12,
+                            offset: Offset(0,6),
+                          )
+                        ]
+                    ),
+                    child: Row(
+                      children: <Widget>[
+                        Image.asset("assets/images/alfadl.png"),
+                        SizedBox(width: 30,),
+                        Column(
+                          mainAxisAlignment:MainAxisAlignment.center ,
                           children: <Widget>[
-                            Icon(Icons.location_on,color: Colors.white,size: 20,),
-                            Text(" ALFADL  ",
+                            Text("PRAIMAIRE",
                               style: TextStyle(
-                                color: Colors.black,
+                                  color: Colors.black,
+                                  fontFamily: "Nunito",
+                                  fontSize: 20
                               ),
                             ),
+                            SizedBox(height:16),
+                            Row(
+                              children: <Widget>[
+                                Icon(Icons.location_on,color: Colors.white,size: 20,),
+                                Text(" ALFADL  ",
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                  ),
+                                ),
+                              ],
+                            )
                           ],
-                        )
+                        ),
                       ],
                     ),
-                  ],
-                ),
-              ),
+                  ),
+                );
+              },
+              transitionType: ContainerTransitionType.fadeThrough,
+              transitionDuration: Duration(milliseconds: 1000),
             ),
             SizedBox(height:10 ),
-            GestureDetector(
-              onTap:  (){
-                Navigator.push(context, new MaterialPageRoute(
-                  builder: (context) => collegelist(),
-                ));
+            OpenContainer(
+              openBuilder: (context,_){
+                return collegelist();
               },
-              child: Container(
-                margin: EdgeInsets.all(8),
-                height: 100,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(24),
-                    gradient: LinearGradient(
-                      colors: [Colors.white,Colors.tealAccent],
-                      begin: Alignment.topLeft,
-                      end: Alignment.bottomRight,
-                    ),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.teal,
-                        blurRadius: 12,
-                        offset: Offset(0,6),
-                      )
-                    ]
-                ),
-                child: Row(
-                  children: <Widget>[
-                    Image.asset("assets/images/alfadl.png"),
-                    SizedBox(width: 30,),
-                    Column(
-                       mainAxisAlignment: MainAxisAlignment.center,
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: <Widget>[
-                        Text("COLLEGE ",
-                          style: TextStyle(
-                              color: Colors.black,
-                              fontFamily: "Nunito",
-                              fontSize: 20
-                          ),
+              closedBuilder: (context, VoidCallback opencontainer){
+                return GestureDetector(
+                  onTap:  opencontainer,
+                  child: Container(
+                    margin: EdgeInsets.all(8),
+                    height: 100,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(24),
+                        gradient: LinearGradient(
+                          colors: [Colors.white,Colors.tealAccent],
+                          begin: Alignment.topLeft,
+                          end: Alignment.bottomRight,
                         ),
-                        SizedBox(height:16),
-                        Row(
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.teal,
+                            blurRadius: 12,
+                            offset: Offset(0,6),
+                          )
+                        ]
+                    ),
+                    child: Row(
+                      children: <Widget>[
+                        Image.asset("assets/images/alfadl.png"),
+                        SizedBox(width: 30,),
+                        Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
-                            Icon(Icons.location_on,color: Colors.white,size: 20,),
-                            Text("ALFADL III ",
+                            Text("COLLEGE ",
                               style: TextStyle(
-                                color: Colors.black,
+                                  color: Colors.black,
+                                  fontFamily: "Nunito",
+                                  fontSize: 20
                               ),
-
                             ),
+                            SizedBox(height:16),
+                            Row(
+                              children: <Widget>[
+                                Icon(Icons.location_on,color: Colors.white,size: 20,),
+                                Text("ALFADL III ",
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                  ),
+
+                                ),
+                              ],
+                            )
                           ],
-                        )
+                        ),
                       ],
                     ),
-                  ],
-                ),
-              ),
+                  ),
+                );
+              },
+              closedColor: Colors.purple,
+              transitionType: ContainerTransitionType.fadeThrough,
+              transitionDuration: Duration(milliseconds: 1000),
             ),
             SizedBox(height: 10,),
-            GestureDetector(
-              onTap:  (){
-                Navigator.push(context, new MaterialPageRoute(
-                  builder: (context) => lyceelist(),
-                ));
+            OpenContainer(
+              openBuilder: (context,_){
+                return lyceelist();
               },
-              child: Container(
-                margin: EdgeInsets.all(8),
-                height: 100,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(24),
-                    gradient: LinearGradient(
-                      colors: [Colors.white,Colors.amberAccent],
-                      begin: Alignment.topLeft,
-                      end: Alignment.bottomRight,
-                    ),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.amber,
-                        blurRadius: 12,
-                        offset: Offset(0,6),
-                      )
-                    ]
-                ),
-                child: Row(
-                  children: <Widget>[
-                    Image.asset("assets/images/alfadl.png"),
-                    SizedBox(width: 30,),
-                    Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: <Widget>[
-                        Text("LYCEE",
-                          style: TextStyle(
-                              color: Colors.black,
-                              fontFamily: "Nunito",
-                              fontSize: 20
-                          ),
+              closedBuilder: (context,VoidCallback opencontainer){
+                return GestureDetector(
+                  onTap:  opencontainer,
+                  child: Container(
+                    margin: EdgeInsets.all(8),
+                    height: 100,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(24),
+                        gradient: LinearGradient(
+                          colors: [Colors.white,Colors.amberAccent],
+                          begin: Alignment.topLeft,
+                          end: Alignment.bottomRight,
                         ),
-                        SizedBox(height:16),
-                        Row(
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.amber,
+                            blurRadius: 12,
+                            offset: Offset(0,6),
+                          )
+                        ]
+                    ),
+                    child: Row(
+                      children: <Widget>[
+                        Image.asset("assets/images/alfadl.png"),
+                        SizedBox(width: 30,),
+                        Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
-                            Icon(Icons.location_on,color: Colors.white,size: 20,),
-                            Text(" ALFADL II ",
+                            Text("LYCEE",
                               style: TextStyle(
-                                color: Colors.black,
+                                  color: Colors.black,
+                                  fontFamily: "Nunito",
+                                  fontSize: 20
                               ),
                             ),
+                            SizedBox(height:16),
+                            Row(
+                              children: <Widget>[
+                                Icon(Icons.location_on,color: Colors.white,size: 20,),
+                                Text(" ALFADL II ",
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                  ),
+                                ),
+                              ],
+                            )
                           ],
-                        )
+                        ),
                       ],
                     ),
-                  ],
-                ),
-              ),
+                  ),
+                );
+              },
+              closedColor: Colors.purple,
+              transitionType: ContainerTransitionType.fadeThrough,
+              transitionDuration: Duration(milliseconds: 1000),
             ),
   ],
     ),
