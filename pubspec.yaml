@@ -38,6 +38,7 @@ dependencies:
   file_picker: ^1.13.3
   firebase_storage: ^3.1.6
   random_string: ^2.1.0
+  animated_splash_screen: ^1.0.0+1
   flutter_plugin_pdf_viewer:
 
 dev_dependencies:

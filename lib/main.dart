@@ -4,6 +4,7 @@ import 'package:flutter_alfadl2/pages/home.dart';
 import 'package:flutter_alfadl2/services/auth.dart';
 import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
 import 'package:provider/provider.dart';
+import 'package:animated_splash_screen/animated_splash_screen.dart';
 void main() {
   runApp(MyApp());
 }
@@ -22,7 +23,16 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         home: Scaffold(
           body:Container(
-            child: ourroot(),
+            child: AnimatedSplashScreen(splash: Container(
+              height: 300,
+              child: Image.asset('assets/images/alfadl.png',
+              ),
+            ),
+                nextScreen: ourroot(),
+              splashTransition: SplashTransition.rotationTransition,
+              duration: 2000,
+
+            ),
           ),
         ),
       ),

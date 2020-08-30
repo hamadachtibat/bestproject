@@ -565,4 +565,61 @@ import 'package:cloud_firestore/cloud_firestore.dart';
        print('error');
      });
    }
+   Future<void> Aaddata7cma(lessondata) async {
+     Firestore.instance.collection("lessons7cma").add(lessondata).catchError((
+         e) {
+       print('error');
+     });
+   }
+
+   Future<void> Aaddata7cphy(lessondata) async {
+     Firestore.instance.collection("lessons7cphy").add(lessondata).catchError((
+         e) {
+       print('error');
+     });
+   }
+
+   Future<void> Aaddata7csvt(lessondata) async {
+     Firestore.instance.collection("lessons7csvt").add(lessondata).catchError((
+         e) {
+       print('error');
+     });
+   }
+
+   Future<void> Aaddata7cfr(lessondata) async {
+     Firestore.instance.collection("lessons7cfr").add(lessondata).catchError((
+         e) {
+       print('error');
+     });
+   }
+   Future<void> Aaddata7carab(lessondata) async {
+     Firestore.instance.collection("lessons7carab").add(lessondata).catchError((
+         e) {
+       print('error');
+     });
+   }
+   Future<void> Aaddata7cei(lessondata) async {
+     Firestore.instance.collection("lessons7cei").add(lessondata).catchError((
+         e) {
+       print('error');
+     });
+   }
+   Future<void> Aaddata7chg(lessondata) async {
+     Firestore.instance.collection("lessons7chg").add(lessondata).catchError((
+         e) {
+       print('error');
+     });
+   }
+   Future<void> Aaddata7ceng(lessondata) async {
+     Firestore.instance.collection("lessons7ceng").add(lessondata).catchError((
+         e) {
+       print('error');
+     });
+   }
+   Future<void> Aaddata7cphilo(lessondata) async {
+     Firestore.instance.collection("lessons7cphilo").add(lessondata).catchError((
+         e) {
+       print('error');
+     });
+   }
  }

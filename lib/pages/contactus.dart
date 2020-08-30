@@ -46,7 +46,7 @@ class ContactPage extends StatelessWidget {
                 leading: Icon(Icons.phone,
                 color: Colors.pink,
                 ),
-                title: Text("+212 5393-62575 collége",
+                title: Text("+212 5393-62575 (collége)",
 
                 ),
 

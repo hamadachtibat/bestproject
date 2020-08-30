@@ -8,7 +8,7 @@ class _exo1collegeState extends State<exo1college> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blueAccent[600],
+      backgroundColor: Colors.purple,
       body: SingleChildScrollView(
         child: Column(
 children: [
