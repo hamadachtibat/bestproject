@@ -679,4 +679,10 @@ import 'package:cloud_firestore/cloud_firestore.dart';
        print('error');
      });
    }
+   Future<void> Aadanonce(lessondata) async {
+     Firestore.instance.collection("annonces").add(lessondata).catchError((
+         e) {
+       print('error');
+     });
+   }
  }

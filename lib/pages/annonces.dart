@@ -1,4 +1,6 @@
+import 'package:animations/animations.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_alfadl2/lessonupload/uploadannonce.dart';
 import 'package:flutter_alfadl2/services/auth.dart';
 import 'package:provider/provider.dart';
 class Annonce extends StatefulWidget {
@@ -34,10 +36,19 @@ class _AnnonceState extends State<Annonce> {
 
               Visibility(
                 visible: isteacher,
-                  child: FloatingActionButton(
-                    backgroundColor: Colors.white,
-                      focusColor: Colors.purple,
-                      onPressed: null)),
+                  child: OpenContainer(
+                    openBuilder: (context,_){
+                      return uploadannonce();
+                    },
+                    closedBuilder: (context,VoidCallback openContainer){
+                      return  FloatingActionButton(
+                          backgroundColor: Colors.white,
+                          focusColor: Colors.purple,
+                          onPressed: openContainer);
+                    },
+                    transitionType: ContainerTransitionType.fade,
+                    transitionDuration: Duration(milliseconds: 1000),
+                  )),
             ],
           ),
         ),
