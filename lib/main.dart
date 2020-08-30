@@ -54,7 +54,6 @@ class _LoginPageState extends State<LoginPage> {
   double   windowheight= 0;
   double  _loginpagewith=0;
   double _loginpageopacity= 1;
-  double _tophead= 100;
   double _loginheight=0;
   double _registreheight=0;
   bool _keyboarvisible= false;
@@ -113,7 +112,6 @@ class _LoginPageState extends State<LoginPage> {
         _loginXoffsets=0;
         _loginpagewith= windowwith;
         _loginpageopacity= 1;
-        _tophead= 100;
         break;
       case 1:
         _backroundcolor = Colors.purpleAccent;
@@ -123,7 +121,6 @@ class _LoginPageState extends State<LoginPage> {
         _loginXoffsets= 0;
         _loginpagewith= windowwith;
         _loginpageopacity= 1;
-        _tophead= 90;
         break;
       case 2:
         _backroundcolor = Colors.purpleAccent;
@@ -133,7 +130,6 @@ class _LoginPageState extends State<LoginPage> {
         _loginXoffsets=20;
         _loginpagewith= windowwith- 40;
         _loginpageopacity= 0.7;
-        _tophead= 80;
         break;
     }
     return
