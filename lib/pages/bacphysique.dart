@@ -25,7 +25,7 @@ class _bacphyState extends State<bacphy> {
 
   Future getlesson7csvt()async{
     var firestore =Firestore.instance;
-    QuerySnapshot qn= await firestore.collection("lessons5csvt").getDocuments();
+    QuerySnapshot qn= await firestore.collection("lessons7csvt").getDocuments();
     return qn.documents;
   }
   Future getlesson7cfr()async{
