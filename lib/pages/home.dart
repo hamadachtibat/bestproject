@@ -10,6 +10,7 @@ import 'package:provider/provider.dart';
 import 'package:animations/animations.dart';
 
 import 'alfadlphotos.dart';
+import 'annonces.dart';
 import 'contactus.dart';
 
 class homepage extends StatefulWidget {
@@ -43,7 +44,7 @@ class _homepageState extends State<homepage> {
                  OpenContainer(
 
                    openBuilder: (context,_){
-                     return primairelist();
+                     return Annonce();
                    },
                    closedBuilder: (context, VoidCallback openContainer){
                      return GestureDetector(
