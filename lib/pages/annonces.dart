@@ -34,7 +34,7 @@ class _AnnonceState extends State<Annonce> {
         SingleChildScrollView(
           child: Column(
             children: [
-
+           Placeholder(),
               Visibility(
                 visible: isteacher,
                   child: OpenContainer(
@@ -43,8 +43,7 @@ class _AnnonceState extends State<Annonce> {
                     },
                     closedBuilder: (context,VoidCallback openContainer){
                       return  FloatingActionButton(
-                          backgroundColor: Colors.white,
-                          focusColor: Colors.purple,
+                          backgroundColor: Colors.purple,
                           onPressed: openContainer);
                     },
                     transitionType: ContainerTransitionType.fade,
