@@ -41,6 +41,8 @@ dependencies:
   animated_splash_screen: ^1.0.0+1
   animations: ^1.1.2
   flutter_plugin_pdf_viewer:
+  agora_rtc_engine: ^3.0.1-dev.7
+  permission_handler: ^3.0.0
 
 dev_dependencies:
   flutter_test:

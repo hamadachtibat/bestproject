@@ -6,6 +6,7 @@ import 'package:flutter_alfadl2/pages/college.dart';
 import 'package:flutter_alfadl2/pages/lycee.dart';
 import 'package:flutter_alfadl2/pages/primaire.dart';
 import 'package:flutter_alfadl2/services/auth.dart';
+import 'package:flutter_alfadl2/src/pages/index.dart';
 import 'package:provider/provider.dart';
 import 'package:animations/animations.dart';
 
@@ -31,6 +32,15 @@ class _homepageState extends State<homepage> {
 
         ),
         centerTitle: true,
+        actions: [
+          IconButton(icon: Icon(Icons.video_call),
+            onPressed: (){
+            Navigator.push(context, new MaterialPageRoute(
+                builder: (context)=>IndexPage(),
+            ));
+            }
+          )
+        ],
       ),
       body:
       SingleChildScrollView(
