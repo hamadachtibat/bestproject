@@ -23,7 +23,9 @@ class _CallPageState extends State<CallPage> {
   final _users = <int>[];
   final _infoStrings = <String>[];
   bool muted = false;
+  bool videodisable= false;
   RtcEngine _engine;
+  
 
   @override
   void dispose() {
@@ -214,7 +216,19 @@ class _CallPageState extends State<CallPage> {
             elevation: 2.0,
             fillColor: Colors.white,
             padding: const EdgeInsets.all(12.0),
-          )
+          ),
+          RawMaterialButton(
+            onPressed: _onTogglevideo,
+            child: Icon(
+              videodisable ? Icons.videocam_off : Icons.videocam,
+              color: videodisable ? Colors.white : Colors.blueAccent,
+              size: 20.0,
+            ),
+            shape: CircleBorder(),
+            elevation: 2.0,
+            fillColor: videodisable ? Colors.blueAccent : Colors.white,
+            padding: const EdgeInsets.all(12.0),
+          ),
         ],
       ),
     );
@@ -283,6 +297,12 @@ class _CallPageState extends State<CallPage> {
 
   void _onSwitchCamera() {
     _engine.switchCamera();
+  }
+  void _onTogglevideo() {
+    setState(() {
+      videodisable = !videodisable;
+    });
+    _engine.disableVideo();
   }
 
   @override

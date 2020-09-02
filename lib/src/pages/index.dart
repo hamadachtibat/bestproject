@@ -31,7 +31,7 @@ class IndexState extends State<IndexPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Agora Flutter QuickStart'),
+        title: Text('Live Paramétres'),
       ),
       body: Center(
         child: Container(
@@ -50,7 +50,7 @@ class IndexState extends State<IndexPage> {
                           border: UnderlineInputBorder(
                             borderSide: BorderSide(width: 1),
                           ),
-                          hintText: 'Channel name',
+                          hintText: 'Room ID',
                         ),
                       ))
                 ],
@@ -60,6 +60,7 @@ class IndexState extends State<IndexPage> {
                   ListTile(
                     title: Text(ClientRole.Broadcaster.toString()),
                     leading: Radio(
+                      activeColor: Colors.purple,
                       value: ClientRole.Broadcaster,
                       groupValue: _role,
                       onChanged: (ClientRole value) {
@@ -72,6 +73,7 @@ class IndexState extends State<IndexPage> {
                   ListTile(
                     title: Text(ClientRole.Audience.toString()),
                     leading: Radio(
+                      activeColor: Colors.purple,
                       value: ClientRole.Audience,
                       groupValue: _role,
                       onChanged: (ClientRole value) {
@@ -91,7 +93,7 @@ class IndexState extends State<IndexPage> {
                       child: RaisedButton(
                         onPressed: onJoin,
                         child: Text('Join'),
-                        color: Colors.blueAccent,
+                        color: Colors.purple,
                         textColor: Colors.white,
                       ),
                     )
