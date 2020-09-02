@@ -685,4 +685,34 @@ import 'package:cloud_firestore/cloud_firestore.dart';
        print('error');
      });
    }
+   Future<void> Addexo1pm(lessondata) async {
+     Firestore.instance.collection("exercices1pm").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo1pac(lessondata) async {
+     Firestore.instance.collection("exercices1pac").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo1par(lessondata) async {
+     Firestore.instance.collection("exercices1par").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo1pei(lessondata) async {
+     Firestore.instance.collection("exercices1pei").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo1pea(lessondata) async {
+     Firestore.instance.collection("exercices1pea").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo1pfr(lessondata) async {
+     Firestore.instance.collection("exercices1pfr").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
  }

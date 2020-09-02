@@ -117,8 +117,8 @@ class _pri1cState extends State<pri1c> {
                                             GestureDetector(
                                                  onTap:  (){
                                                   Navigator.push(context, new MaterialPageRoute(
-                                                     builder: (context) => exo1college(),
-                                               ));
+                                                     builder: (context) => exo1pmath(),
+                                                  ));
                                 },
 
                                           child: Container(
@@ -264,7 +264,7 @@ class _pri1cState extends State<pri1c> {
                                      GestureDetector(
                                        onTap:  (){
                                          Navigator.push(context, new MaterialPageRoute(
-                                           builder: (context) => exo1college(),
+                                           builder: (context) => exo1pac(),
                                          ));
                                        },
 
@@ -410,7 +410,7 @@ class _pri1cState extends State<pri1c> {
                                      GestureDetector(
                                        onTap:  (){
                                          Navigator.push(context, new MaterialPageRoute(
-                                           builder: (context) => exo1college(),
+                                           builder: (context) => exo1par(),
                                          ));
                                        },
 
@@ -557,7 +557,7 @@ class _pri1cState extends State<pri1c> {
                                      GestureDetector(
                                        onTap:  (){
                                          Navigator.push(context, new MaterialPageRoute(
-                                           builder: (context) => exo1college(),
+                                           builder: (context) => exo1pei(),
                                          ));
                                        },
 
@@ -704,7 +704,7 @@ class _pri1cState extends State<pri1c> {
                                      GestureDetector(
                                        onTap:  (){
                                          Navigator.push(context, new MaterialPageRoute(
-                                           builder: (context) => exo1college(),
+                                           builder: (context) => exo1pea(),
                                          ));
                                        },
 
@@ -851,7 +851,7 @@ class _pri1cState extends State<pri1c> {
                                      GestureDetector(
                                        onTap:  (){
                                          Navigator.push(context, new MaterialPageRoute(
-                                           builder: (context) => exo1college(),
+                                           builder: (context) => exo1pfr(),
                                          ));
                                        },
 
