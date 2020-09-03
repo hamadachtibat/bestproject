@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_alfadl2/exercices/exercices1college.dart';
+import 'package:flutter_alfadl2/exercices/exo2c.dart';
 import 'package:flutter_alfadl2/lessonupload/uploadlesson2c.dart';
 import 'package:flutter_alfadl2/primairelesson/lessonviewer.dart';
 import 'package:flutter_alfadl2/services/auth.dart';
@@ -131,7 +131,7 @@ class _secondannecollegeState extends State<secondannecollege> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo8pmath(),
                           ));
                         },
 
@@ -275,7 +275,7 @@ class _secondannecollegeState extends State<secondannecollege> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo8pac(),
                           ));
                         },
 
@@ -422,7 +422,7 @@ class _secondannecollegeState extends State<secondannecollege> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo8par(),
                           ));
                         },
 
@@ -569,7 +569,7 @@ class _secondannecollegeState extends State<secondannecollege> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo8pei(),
                           ));
                         },
 
@@ -716,7 +716,7 @@ class _secondannecollegeState extends State<secondannecollege> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo8pea(),
                           ));
                         },
 
@@ -863,7 +863,7 @@ class _secondannecollegeState extends State<secondannecollege> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo8pfr(),
                           ));
                         },
 
@@ -1010,7 +1010,7 @@ class _secondannecollegeState extends State<secondannecollege> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo8phg(),
                           ));
                         },
 
@@ -1157,7 +1157,7 @@ class _secondannecollegeState extends State<secondannecollege> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo8pen(),
                           ));
                         },
 

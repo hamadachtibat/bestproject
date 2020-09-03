@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_alfadl2/exercices/exercices1college.dart';
+import 'package:flutter_alfadl2/exercices/exo2p.dart';
 import 'package:flutter_alfadl2/lessonupload/uploadlesson2p.dart';
 import 'package:flutter_alfadl2/primairelesson/lessonviewer.dart';
 import 'package:flutter_alfadl2/services/auth.dart';
@@ -114,7 +115,7 @@ class _pri2cState extends State<pri2c> {
                         GestureDetector(
                           onTap:  (){
                             Navigator.push(context, new MaterialPageRoute(
-                              builder: (context) => exo1college(),
+                              builder: (context) => exo2pmath(),
                             ));
                           },
 
@@ -259,7 +260,7 @@ class _pri2cState extends State<pri2c> {
                         GestureDetector(
                           onTap:  (){
                             Navigator.push(context, new MaterialPageRoute(
-                              builder: (context) => exo1college(),
+                              builder: (context) => exo2pac(),
                             ));
                           },
 
@@ -406,7 +407,7 @@ class _pri2cState extends State<pri2c> {
                         GestureDetector(
                           onTap:  (){
                             Navigator.push(context, new MaterialPageRoute(
-                              builder: (context) => exo1college(),
+                              builder: (context) => exo2par(),
                             ));
                           },
 
@@ -553,7 +554,7 @@ class _pri2cState extends State<pri2c> {
                         GestureDetector(
                           onTap:  (){
                             Navigator.push(context, new MaterialPageRoute(
-                              builder: (context) => exo1college(),
+                              builder: (context) => exo2pei(),
                             ));
                           },
 
@@ -700,7 +701,7 @@ class _pri2cState extends State<pri2c> {
                         GestureDetector(
                           onTap:  (){
                             Navigator.push(context, new MaterialPageRoute(
-                              builder: (context) => exo1college(),
+                              builder: (context) => exo2pea(),
                             ));
                           },
 
@@ -847,7 +848,7 @@ class _pri2cState extends State<pri2c> {
                         GestureDetector(
                           onTap:  (){
                             Navigator.push(context, new MaterialPageRoute(
-                              builder: (context) => exo1college(),
+                              builder: (context) => exo2pfr (),
                             ));
                           },
 

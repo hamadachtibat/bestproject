@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_alfadl2/exercices/exercices1college.dart';
+import 'package:flutter_alfadl2/exercices/exo3p.dart';
 import 'package:flutter_alfadl2/lessonupload/uploadlesson3p.dart';
 import 'package:flutter_alfadl2/primairelesson/lessonviewer.dart';
 import 'package:flutter_alfadl2/services/auth.dart';
@@ -114,7 +114,7 @@ class _pri3cState extends State<pri3c> {
                         GestureDetector(
                           onTap:  (){
                             Navigator.push(context, new MaterialPageRoute(
-                              builder: (context) => exo1college(),
+                              builder: (context) => exo3pmath(),
                             ));
                           },
 
@@ -259,7 +259,7 @@ class _pri3cState extends State<pri3c> {
                         GestureDetector(
                           onTap:  (){
                             Navigator.push(context, new MaterialPageRoute(
-                              builder: (context) => exo1college(),
+                              builder: (context) => exo3pac(),
                             ));
                           },
 
@@ -406,7 +406,7 @@ class _pri3cState extends State<pri3c> {
                         GestureDetector(
                           onTap:  (){
                             Navigator.push(context, new MaterialPageRoute(
-                              builder: (context) => exo1college(),
+                              builder: (context) => exo3par(),
                             ));
                           },
 
@@ -553,7 +553,7 @@ class _pri3cState extends State<pri3c> {
                         GestureDetector(
                           onTap:  (){
                             Navigator.push(context, new MaterialPageRoute(
-                              builder: (context) => exo1college(),
+                              builder: (context) => exo3pei(),
                             ));
                           },
 
@@ -700,7 +700,7 @@ class _pri3cState extends State<pri3c> {
                         GestureDetector(
                           onTap:  (){
                             Navigator.push(context, new MaterialPageRoute(
-                              builder: (context) => exo1college(),
+                              builder: (context) => exo3pea(),
                             ));
                           },
 
@@ -847,7 +847,7 @@ class _pri3cState extends State<pri3c> {
                         GestureDetector(
                           onTap:  (){
                             Navigator.push(context, new MaterialPageRoute(
-                              builder: (context) => exo1college(),
+                              builder: (context) => exo3pfr(),
                             ));
                           },
 
