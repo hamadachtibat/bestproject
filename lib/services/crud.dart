@@ -945,4 +945,270 @@ import 'package:cloud_firestore/cloud_firestore.dart';
        print('error');
      });
    }
+   Future<void> Addexo9pm(lessondata) async {
+     Firestore.instance.collection("exercices9pm").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo9pac(lessondata) async {
+     Firestore.instance.collection("exercices9pac").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo9par(lessondata) async {
+     Firestore.instance.collection("exercices9par").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo9pei(lessondata) async {
+     Firestore.instance.collection("exercices9pei").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo9pea(lessondata) async {
+     Firestore.instance.collection("exercices9pea").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo9pfr(lessondata) async {
+     Firestore.instance.collection("exercices9pfr").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo9phg(lessondata) async {
+     Firestore.instance.collection("exercices9phg").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo9pen(lessondata) async {
+     Firestore.instance.collection("exercices9pen").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo10pm(lessondata) async {
+     Firestore.instance.collection("exercices10pm").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo10pac(lessondata) async {
+     Firestore.instance.collection("exercices10pac").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo10par(lessondata) async {
+     Firestore.instance.collection("exercices10par").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo10pei(lessondata) async {
+     Firestore.instance.collection("exercices10pei").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo10pea(lessondata) async {
+     Firestore.instance.collection("exercices10pea").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo10pfr(lessondata) async {
+     Firestore.instance.collection("exercices10pfr").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo10phg(lessondata) async {
+     Firestore.instance.collection("exercices10phg").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo10pen(lessondata) async {
+     Firestore.instance.collection("exercices10pen").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo10philo(lessondata) async {
+     Firestore.instance.collection("exercices10philo").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo11pm(lessondata) async {
+     Firestore.instance.collection("exercices11pm").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo11pac(lessondata) async {
+     Firestore.instance.collection("exercices11pac").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo11par(lessondata) async {
+     Firestore.instance.collection("exercices11par").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo11pei(lessondata) async {
+     Firestore.instance.collection("exercices11pei").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo11pea(lessondata) async {
+     Firestore.instance.collection("exercices11pea").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo11pfr(lessondata) async {
+     Firestore.instance.collection("exercices11pfr").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo11phg(lessondata) async {
+     Firestore.instance.collection("exercices11phg").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo11pen(lessondata) async {
+     Firestore.instance.collection("exercices11pen").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo11philo(lessondata) async {
+     Firestore.instance.collection("exercices11philo").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo12pm(lessondata) async {
+     Firestore.instance.collection("exercices12pm").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo12pac(lessondata) async {
+     Firestore.instance.collection("exercices12pac").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo12par(lessondata) async {
+     Firestore.instance.collection("exercices12par").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo12pei(lessondata) async {
+     Firestore.instance.collection("exercices12pei").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo12pea(lessondata) async {
+     Firestore.instance.collection("exercices12pea").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo12pfr(lessondata) async {
+     Firestore.instance.collection("exercices12pfr").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo12phg(lessondata) async {
+     Firestore.instance.collection("exercices12phg").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo12pen(lessondata) async {
+     Firestore.instance.collection("exercices12pen").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo12philo(lessondata) async {
+     Firestore.instance.collection("exercices12philo").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo13pm(lessondata) async {
+     Firestore.instance.collection("exercices13pm").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo13pac(lessondata) async {
+     Firestore.instance.collection("exercices13pac").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo13par(lessondata) async {
+     Firestore.instance.collection("exercices13par").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo13pei(lessondata) async {
+     Firestore.instance.collection("exercices13pei").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo13pea(lessondata) async {
+     Firestore.instance.collection("exercices13pea").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo13pfr(lessondata) async {
+     Firestore.instance.collection("exercices13pfr").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo13phg(lessondata) async {
+     Firestore.instance.collection("exercices13phg").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo13pen(lessondata) async {
+     Firestore.instance.collection("exercices13pen").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo13philo(lessondata) async {
+     Firestore.instance.collection("exercices13philo").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo14pm(lessondata) async {
+     Firestore.instance.collection("exercices14pm").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo14pac(lessondata) async {
+     Firestore.instance.collection("exercices14pac").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo14par(lessondata) async {
+     Firestore.instance.collection("exercices14par").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo14pei(lessondata) async {
+     Firestore.instance.collection("exercices14pei").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo14pea(lessondata) async {
+     Firestore.instance.collection("exercices14pea").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo14pfr(lessondata) async {
+     Firestore.instance.collection("exercices14pfr").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo14phg(lessondata) async {
+     Firestore.instance.collection("exercices14phg").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo14pen(lessondata) async {
+     Firestore.instance.collection("exercices14pen").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   Future<void> Addexo14philo(lessondata) async {
+     Firestore.instance.collection("exercices14philo").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
+   
  }

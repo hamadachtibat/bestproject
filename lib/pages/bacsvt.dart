@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_alfadl2/exercices/exercices1college.dart';
+import 'package:flutter_alfadl2/exercices/exobacsvt.dart';
 import 'package:flutter_alfadl2/lessonupload/uploadlessonbacsv.dart';
 import 'package:flutter_alfadl2/primairelesson/lessonviewer.dart';
 import 'package:flutter_alfadl2/services/auth.dart';
@@ -141,7 +141,7 @@ class _bacsvtState extends State<bacsvt> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo13pmath(),
                           ));
                         },
 
@@ -285,7 +285,7 @@ class _bacsvtState extends State<bacsvt> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo13pac(),
                           ));
                         },
 
@@ -432,7 +432,7 @@ class _bacsvtState extends State<bacsvt> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo13par(),
                           ));
                         },
 
@@ -579,7 +579,7 @@ class _bacsvtState extends State<bacsvt> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo13pei(),
                           ));
                         },
 
@@ -726,7 +726,7 @@ class _bacsvtState extends State<bacsvt> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo13pea(),
                           ));
                         },
 
@@ -873,7 +873,7 @@ class _bacsvtState extends State<bacsvt> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo13pfr(),
                           ));
                         },
 
@@ -1020,7 +1020,7 @@ class _bacsvtState extends State<bacsvt> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo13phg(),
                           ));
                         },
 
@@ -1167,7 +1167,7 @@ class _bacsvtState extends State<bacsvt> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo13pen(),
                           ));
                         },
 
@@ -1314,7 +1314,7 @@ class _bacsvtState extends State<bacsvt> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo13philo(),
                           ));
                         },
 
@@ -1452,7 +1452,6 @@ class _bacsvtState extends State<bacsvt> {
               ),
 
             ),
-
           ],
         ),
 

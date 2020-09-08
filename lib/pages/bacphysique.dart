@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_alfadl2/exercices/exercices1college.dart';
+import 'package:flutter_alfadl2/exercices/exobacphy.dart';
 import 'package:flutter_alfadl2/pages/uploadlessonbacp.dart';
 import 'package:flutter_alfadl2/primairelesson/lessonviewer.dart';
 import 'package:flutter_alfadl2/services/auth.dart';
@@ -142,7 +142,7 @@ class _bacphyState extends State<bacphy> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo14pmath(),
                           ));
                         },
 
@@ -286,7 +286,7 @@ class _bacphyState extends State<bacphy> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo14pac(),
                           ));
                         },
 
@@ -433,7 +433,7 @@ class _bacphyState extends State<bacphy> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo14par(),
                           ));
                         },
 
@@ -580,7 +580,7 @@ class _bacphyState extends State<bacphy> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo14pei(),
                           ));
                         },
 
@@ -727,7 +727,7 @@ class _bacphyState extends State<bacphy> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo14pea(),
                           ));
                         },
 
@@ -874,7 +874,7 @@ class _bacphyState extends State<bacphy> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo14pfr(),
                           ));
                         },
 
@@ -1021,7 +1021,7 @@ class _bacphyState extends State<bacphy> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo14phg(),
                           ));
                         },
 
@@ -1168,7 +1168,7 @@ class _bacphyState extends State<bacphy> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo14pen(),
                           ));
                         },
 
@@ -1315,7 +1315,7 @@ class _bacphyState extends State<bacphy> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo14philo(),
                           ));
                         },
 

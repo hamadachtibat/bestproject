@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_alfadl2/exercices/exercices1college.dart';
+import 'package:flutter_alfadl2/exercices/exo6sx.dart';
 import 'package:flutter_alfadl2/lessonupload/uploadlesson6x.dart';
 import 'package:flutter_alfadl2/primairelesson/lessonviewer.dart';
 import 'package:flutter_alfadl2/services/auth.dart';
@@ -142,7 +142,7 @@ class _prsxState extends State<prsx> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo11pmath(),
                           ));
                         },
 
@@ -286,7 +286,7 @@ class _prsxState extends State<prsx> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo11pac(),
                           ));
                         },
 
@@ -433,7 +433,7 @@ class _prsxState extends State<prsx> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo11par(),
                           ));
                         },
 
@@ -580,7 +580,7 @@ class _prsxState extends State<prsx> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo11pei(),
                           ));
                         },
 
@@ -727,7 +727,7 @@ class _prsxState extends State<prsx> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo11pea(),
                           ));
                         },
 
@@ -874,7 +874,7 @@ class _prsxState extends State<prsx> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo11pfr(),
                           ));
                         },
 
@@ -1021,7 +1021,7 @@ class _prsxState extends State<prsx> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo11phg(),
                           ));
                         },
 
@@ -1168,7 +1168,7 @@ class _prsxState extends State<prsx> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo11pen(),
                           ));
                         },
 
@@ -1315,7 +1315,7 @@ class _prsxState extends State<prsx> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo11philo(),
                           ));
                         },
 

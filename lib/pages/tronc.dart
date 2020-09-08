@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_alfadl2/exercices/exercices1college.dart';
+import 'package:flutter_alfadl2/exercices/exotc.dart';
 import 'package:flutter_alfadl2/lessonupload/uploadlessontron.dart';
 import 'package:flutter_alfadl2/primairelesson/lessonviewer.dart';
 import 'package:flutter_alfadl2/services/auth.dart';
@@ -143,7 +143,7 @@ class _troncState extends State<tronc> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo10pmath(),
                           ));
                         },
 
@@ -287,7 +287,7 @@ class _troncState extends State<tronc> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo10pac(),
                           ));
                         },
 
@@ -434,7 +434,7 @@ class _troncState extends State<tronc> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo10par(),
                           ));
                         },
 
@@ -581,7 +581,7 @@ class _troncState extends State<tronc> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo10pei(),
                           ));
                         },
 
@@ -728,7 +728,7 @@ class _troncState extends State<tronc> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo10pea(),
                           ));
                         },
 
@@ -875,7 +875,7 @@ class _troncState extends State<tronc> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo10pfr(),
                           ));
                         },
 
@@ -1022,7 +1022,7 @@ class _troncState extends State<tronc> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo10phg(),
                           ));
                         },
 
@@ -1169,7 +1169,7 @@ class _troncState extends State<tronc> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo10pen(),
                           ));
                         },
 
@@ -1316,7 +1316,7 @@ class _troncState extends State<tronc> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo10philo(),
                           ));
                         },
 

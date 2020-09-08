@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_alfadl2/exercices/exercices1college.dart';
+import 'package:flutter_alfadl2/exercices/exo6eco.dart';
 import 'package:flutter_alfadl2/lessonupload/uploadlesson6eco.dart';
 import 'package:flutter_alfadl2/primairelesson/lessonviewer.dart';
 import 'package:flutter_alfadl2/services/auth.dart';
@@ -141,7 +141,7 @@ class _psecoState extends State<pseco> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo12pmath(),
                           ));
                         },
 
@@ -285,7 +285,7 @@ class _psecoState extends State<pseco> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo12pac(),
                           ));
                         },
 
@@ -432,7 +432,7 @@ class _psecoState extends State<pseco> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo12par(),
                           ));
                         },
 
@@ -579,7 +579,7 @@ class _psecoState extends State<pseco> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo12pei(),
                           ));
                         },
 
@@ -726,7 +726,7 @@ class _psecoState extends State<pseco> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo12pea(),
                           ));
                         },
 
@@ -873,7 +873,7 @@ class _psecoState extends State<pseco> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo12pfr(),
                           ));
                         },
 
@@ -1020,7 +1020,7 @@ class _psecoState extends State<pseco> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo12phg(),
                           ));
                         },
 
@@ -1167,7 +1167,7 @@ class _psecoState extends State<pseco> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo12pen(),
                           ));
                         },
 
@@ -1314,7 +1314,7 @@ class _psecoState extends State<pseco> {
                       GestureDetector(
                         onTap:  (){
                           Navigator.push(context, new MaterialPageRoute(
-                            builder: (context) => exo1college(),
+                            builder: (context) => exo12philo(),
                           ));
                         },
 
