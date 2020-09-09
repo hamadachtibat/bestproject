@@ -1210,5 +1210,9 @@ import 'package:cloud_firestore/cloud_firestore.dart';
        print('error');
      });
    }
-   
+   Future<void> Addevideo(lessondata) async {
+     Firestore.instance.collection("videoyoutube").add(lessondata).catchError((e) {
+       print('error');
+     });
+   }
  }

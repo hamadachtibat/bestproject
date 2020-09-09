@@ -4,6 +4,7 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_alfadl2/exercices/exercices1college.dart';
 import 'package:flutter_alfadl2/exercices/exo2p.dart';
 import 'package:flutter_alfadl2/lessonupload/uploadlesson2p.dart';
+import 'package:flutter_alfadl2/pages/video.dart';
 import 'package:flutter_alfadl2/primairelesson/lessonviewer.dart';
 import 'package:flutter_alfadl2/services/auth.dart';
 import 'package:provider/provider.dart';
@@ -143,28 +144,35 @@ class _pri2cState extends State<pri2c> {
                             ),
                           ),
                         ),
-                        Container(
+                        GestureDetector(
+                          onTap:  (){
+                            Navigator.push(context, new MaterialPageRoute(
+                              builder: (context) => videopr(),
+                            ));
+                          },
+                          child: Container(
 
-                          margin: EdgeInsets.only(left:20,top: 10),
-                          height: 200,
-                          width: 140,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(24),
-                            gradient: LinearGradient(
-                              colors: [Colors.pinkAccent,Colors.pink],
+                            margin: EdgeInsets.only(left:20,top: 10),
+                            height: 200,
+                            width: 140,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(24),
+                              gradient: LinearGradient(
+                                colors: [Colors.pinkAccent,Colors.pink],
+                              ),
                             ),
-                          ),
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: <Widget>[
-                              Text("Les Videos",
-                                style: TextStyle(
-                                    fontSize: 25
-                                ),),
-                              Image.asset("assets/images/exam.png",
-                                width: 100, ),
-                            ],
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: <Widget>[
+                                Text("Les Videos",
+                                  style: TextStyle(
+                                      fontSize: 25
+                                  ),),
+                                Image.asset("assets/images/exam.png",
+                                  width: 100, ),
+                              ],
+                            ),
                           ),
                         ),
                       ],
